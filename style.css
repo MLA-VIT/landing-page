@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .toprect {
     margin-left:-10px;
     width: 110%;
@@ -8,7 +7,7 @@
     top: 0px;
     text-align:center;
 }
-.m {   
+.m {
     color: aliceblue;
     font-size: 80px;
     margin:auto;
@@ -45,52 +44,4 @@
 }
 body{
     overflow: hidden;
-=======
-.toprect {
-    margin-left:-10px;
-    width: 110%;
-    height: 120px;
-    background-color:#2e2d2d;
-    position: absolute;
-    top: 0px;
-    text-align:center;
-}
-.m {   
-    color: aliceblue;
-    font-size: 80px;
-    margin:auto;
-}
-.svg {
-    margin-left: -10px;
-}
-.svg2{
-    margin-left: -10px;
-}
-.welcome {
-    color:white;
-    font-size: 64px;
-    z-index: 100;
-    position: absolute;
-    top:40%;
-    left: 20px;
-    font-family: 'Montserrat', sans-serif;
-
-    
-}
-.to{
-    
-    color:white;
-    font-size: 45px;
-    z-index: 100;
-    position: absolute;
-    top:44%;
-    left: 18.5%;
-    font-family: 'Montserrat', sans-serif;
-    
-        
-
-}
-body{
-    overflow: hidden;
->>>>>>> 12ea253dba705215c60b12165d1561abad3c8591
 }
