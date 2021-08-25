@@ -87,6 +87,11 @@ nav .menu{
   width: 1300px;
 
 }
+.team p{
+  position: absolute;
+  width: 650px;
+  font-size: 20px;
+}
 .text1{
   position: absolute;
   top:0;
@@ -105,12 +110,13 @@ nav .menu{
 .text2{
   width: 50%;
   position: absolute;
-  top:20%;
+  top:15%;
   right:5%;
   color:#ffffff;
-  font-size:29px;
+  font-size:15px;
+  padding-left: 60px;
 }
-.text2 h1{
+.text2 p{
   font-family:Arial;
 }
 .about{
@@ -139,10 +145,10 @@ nav .menu{
   top:20%;
   left:5%;
   color:#ffffff;
-  font-size:13px;
+  font-size:20px;
 
 }
-.text4 h1{
+.text4 p{
   font-family:Arial;
 }
 
