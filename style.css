@@ -27,6 +27,7 @@
 
 nav{
   position: fixed;
+  height: 100;
   background: rgb(0, 0, 0);
   width: 100%;
   padding: 10px 0;
@@ -44,7 +45,6 @@ nav .menu{
   padding: bottom 200px;
 }
 .menu .logo a{
-  
   margin: right;
 }
 .menu ul{
@@ -80,6 +80,7 @@ nav .menu{
   width: 100%;
   align-items: center;
   border: radius 10px;
+  padding-bottom: 100px;
 }
 .team{
   position: relative;
@@ -154,8 +155,9 @@ nav .menu{
 
 
 .yt{
-  padding-left: 110px;
-  padding-top:30px;
+  float:right;
+  padding-right: 20px;
+  padding-top:10px;
   padding-bottom: 50px;
   left: 7%;
 }
@@ -168,9 +170,15 @@ nav .menu{
 }
 .footer {
   width: auto;
-  height: 100px;
+  height: 380px;
   position: relative;
   background-color: #1a1919;
+}
+.logo1{
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+  
 }
 .copyright {
   position: absolute;
@@ -182,8 +190,9 @@ nav .menu{
 }
 .social {
   position: absolute;
-  bottom: 10%;
-  right: 40%;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
 }
 .icons{
   float: left;
@@ -191,4 +200,12 @@ nav .menu{
   padding: 20px;
 
   
+}
+.icons::after{
+  display: block;
+  color: white;
+}
+.onam{
+  position: absolute;
+  top:30%;
 }
