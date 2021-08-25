@@ -69,9 +69,7 @@ nav .menu{
   transition: all 0.3s ease;
 }
 .menu ul li a:hover{
-  background: #7e1d22
-
-;
+  background: #7e1d22;
   color: black;
 }
 
@@ -86,6 +84,7 @@ nav .menu{
 .team{
   position: relative;
   padding-bottom: 100px;
+  width: 1300px;
 
 }
 .text1{
@@ -96,7 +95,7 @@ nav .menu{
 
 }
 .text1 h1{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: montserrat,"Helvetica Neue",Helvetica,Arial;
   position: relative;
   color:transparent;
   color:white;
@@ -112,7 +111,7 @@ nav .menu{
   font-size:29px;
 }
 .text2 h1{
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Arial;
 }
 .about{
   position: relative;
@@ -132,7 +131,7 @@ nav .menu{
 
 }
 .text3 h1{
-  font-family: 'Courier New', Courier, monospace;
+  font-family:montserrat,"Helvetica Neue",Helvetica,Arial;
 }
 .text4{
   width: 50%;
@@ -144,7 +143,7 @@ nav .menu{
 
 }
 .text4 h1{
-  font-family:'Courier New', Courier, monospace;
+  font-family:Arial;
 }
 
 
@@ -156,7 +155,7 @@ nav .menu{
 }
 .body{
   position: static;
-  background-image: url("bg1.jpg");
+  background-color: rgb(56, 65, 65);
   background-repeat: repeat;
   background-attachment: fixed;
   width :center;
