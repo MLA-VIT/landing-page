@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+.body{
+    background-color:rgb(56, 65, 65);
+    overflow-x: hidden;
+    width: 100%;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    z-index: 1;
+    position:fixed;
+    background-color: #131212;
+    width:100%;
+    height: 80px;
+    opacity: 10;
+    
+}
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    position:fixed;
+    display: block;
+    right: 10px;
+    width: 15px;
+    height: 3px;
+    margin: 5px auto;
+    align-items: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #e7e7e7;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-item {
+    margin-left: 5rem;
+    text-align: center;
+    border:1px;
+    border-radius: 10px;
+}
+
+.nav-link{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border:1px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    background: #7e1d22;
+    color: black;
+}
+
+.nav-logo img{
+    height:60px;
+}
+.bg img{
+    width: 100%;
+    height: auto;
+
+}
+.bg{
+    padding-bottom: 80px;
+}
+.team{
+    position: relative;
+    padding-bottom: 80px;
+}
+.team img{
+    width:40%;
+}
+.text1{
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    top: 5%;
+    right: 10%;
+    padding-right: 50px;
+    padding-left: 20PX;
+
+}
+.team h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+.team p{
+    font-family: sans-serif;
+    float: right;
+    color:white;
+    font-size: 1.2vw;
+}
+.about img{
+    float:right;
+    width:40%;
+}
+.about{
+    position:relative;
+    padding-bottom: 80px;
+    height: 500px;
+}
+.text2{
+    position: absolute;
+    width: 60%;
+    top:5%;
+    top: 5%;
+    left: 5%;
+
+}
+.about h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+.about p{
+    font-family: sans-serif;
+    float: left;
+    color:white;
+    font-size: 1.4vw;
+}
+.footer {
+    width: 100%;
+    height: 380px;
+    position: relative;
+    background-color: #1a1919;
+    bottom:0;
+}
+.logo1 {
+position: absolute;
+bottom: 5%;
+left: 45%;
+}
+.copyright {
+position: absolute;
+bottom: 0;
+right: 45%;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+.social {
+position: absolute;
+bottom: 0;
+right: 0;
+padding-right: 50px;
+}
+.icons {
+float: left;
+width: 20%;
+padding: 20px;
+}
+.yt{
+    position: absolute;
+    right: 1%;
+}
+.yt iframe {
+    height:275px;
+    width:500px;
+}
+.icons::after {
+display: block;
+color: white;
+}
+.onam {
+position: absolute;
+top: 30%;
+}
+
+@media only screen and (max-width: 1400px){
+    .onam{
+        width:50%;
+    }
+    .onam img{
+        width: 80%;
+        height: 80%;
+    }
+    .footer{
+        height: 430px;
+    }
+    .logo1{
+        left:40%;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 6rem;
+        flex-direction: column;
+        background-color: #131212;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.6s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-logo img{
+        height:40px;
+    }
+    .header{
+        height:60px;
+    }
+    .bg{
+        padding-bottom: 0;
+    }
+    .team{
+        align-items: center;
+        display:block;
+        position: relative;
+        height:900px;
+    }
+    .text1{
+        position:absolute;
+        top:39%;
+        width:70%;
+        left:15%;
+        font-size:2vh;
+
+    }
+    .team img{
+        width:50%;
+        position:absolute;
+        left:20%;
+        padding-bottom: 30px;
+    }
+    .team p{
+        font-size: 2vh;
+    }
+    .about{
+        align-items: center;
+        display:block;
+        position: relative;
+        height:900px;
+
+    }
+    .text2{
+        position:absolute;
+        top:39%;
+        width:70%;
+        left:15%;
+        font-size:2vh;
+
+    }
+    .about img{
+        width:50%;
+        position:absolute;
+        left:20%;
+        padding-bottom: 10px;
+    }
+    .about p{
+        font-size: 2vh;
+    }
+
+    .onam{
+        display: none;
+    }
+    .yt{
+        padding-bottom: 10px;
+        right:19%;
+    }
+    .footer{
+        height:450px;
+    }
+    .social{
+        bottom:0;
+        padding-right: 0;
+        right: 0;
+    }
+    .logo1{
+        left:35%
+    }
+
+}
+@media only screen and (max-width: 550px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 6rem;
+        flex-direction: column;
+        background-color: #131212;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.6s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-logo img{
+        height:40px;
+    }
+    .header{
+        height:60px;
+    }
+    .bg{
+        padding-bottom: 0;
+    }
+    .team{
+        align-items: center;
+        display:block;
+        position: relative;
+        height:700px;
+    }
+    .text1{
+        position:absolute;
+        align-items: center;
+        width:60%;
+        font-size:2vh;
+        padding-left:0;
+
+    }
+    .team img{
+        width:65%;
+        position:absolute;
+        left:10%;
+        padding-bottom: 10px;
+    }
+    .team p{
+        position:absolute;
+        left:0;
+        font-size: 1.5vh;
+        padding-left: 0;
+    }
+    .about{
+        align-items: center;
+        display:block;
+        position: relative;
+        height:900px;
+
+    }
+    .text2{
+        position:absolute;
+        bottom:0;
+        width:70%;
+        align-items: center;
+        font-size:1vh;
+
+    }
+    .about img{
+        width:80%;
+        position:absolute;
+        left:0;
+        padding-bottom: 10px;
+    }
+    .about p{
+        font-size: 2vh;
+    }
+
+    .onam{
+        display: none;
+    }
+    .yt{
+        position: absolute;
+        
+        padding-bottom: 10px;
+        right:5%;
+        padding-right: 0;
+    }
+    .yt iframe{
+        height:295px;
+        width:350px;
+    }
+    .footer{
+        height:540px;
+    }
+    .social{
+        bottom:24%;
+        padding-right: 0;
+        right: 5%;
+    }
+    .logo1{
+        right:27%;
+        bottom:5%;
+    }
+    .copyright{
+        right:27%;
+    }
+
+}
