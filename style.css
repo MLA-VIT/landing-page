@@ -1,15 +1,17 @@
 .toprect {
   margin-left: -10px;
-  width: 101%;
-  height: 120px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 17%;
+  
   background-color: #242222;
-  position: absolute;
+  position: fixed;
   top: 0px;
   z-index: 1000000;
 }
 .m {
   color: aliceblue;
-  font-size: 80px;
+  font-size: 9vh;
   margin: auto;
   display: grid;
   place-items: center;
