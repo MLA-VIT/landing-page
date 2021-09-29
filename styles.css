@@ -14,10 +14,11 @@ html {
     overflow-x: hidden;
     width: 100%;
 }
-.body{
-    background-color:rgb(56, 65, 65);
-    overflow-x: hidden;
+body{
+    background-image: url('background.jpg');
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -30,9 +31,9 @@ a {
 }
 
 .header{
-    z-index: 1;
+    z-index: 2;
     position:fixed;
-    background-color: #131212;
+    background-color: #4e1616;
     width:100%;
     height: 80px;
     opacity: 10;
@@ -89,21 +90,113 @@ a {
 }
 
 .nav-link:hover{
-    background: #7e1d22;
+    background: #aa7070;
     color: black;
 }
 
 .nav-logo img{
     height:60px;
 }
-.bg img{
-    width: 100%;
-    height: auto;
-
+.spacer{
+    padding: top 80px;
 }
 .bg{
-    padding-bottom: 80px;
+    
+    text-align: center;
+    height: 104vh;
+    background-color: #ffffff;
 }
+.img2{
+    display:hidden;
+
+}
+.bg img{
+
+    position: absolute;
+    right: 16%;
+    width:140vh;
+    height: 104vh;
+}
+.bg h1{
+    top:11%;
+    position:absolute;
+    font-size:10vh;
+    right: 70%;
+    margin: 0 auto;
+    z-index:1;
+    
+    color:#e94a4a;
+    
+}
+.bg h2{
+    text-shadow: -1px 1px 5px rgb(184, 57, 57),
+				  1px 1px 5px rgb(211, 66, 66),
+				  1px -1px 0 rgb(196, 76, 76),
+				  -1px -1px 0 rgb(206, 71, 71);
+    top:11%;
+    position:absolute;
+    font-size:10vh;
+    right: 42%;
+    
+    margin: 0 auto;
+    z-index:1;
+    
+    color:#f8f8f8;
+
+}
+.bg h3{
+    top:11%;
+    position:absolute;
+    font-size:10vh;
+    right: 4%;
+    
+    margin: 0 auto;
+    z-index:1;
+    
+    color:#e94a4a;
+    
+}
+.bg h4{
+    top:21%;
+    position:absolute;
+    font-size:10vh;
+    right: 70%;
+    margin: 0 auto;
+    z-index:1;
+    
+    color:#e94a4a;
+    
+}
+.bg h5{
+    text-shadow: -1px 1px 5px rgb(184, 57, 57),
+				  1px 1px 5px rgb(211, 66, 66),
+				  1px -1px 0 rgb(196, 76, 76),
+				  -1px -1px 0 rgb(206, 71, 71);
+    top:21%;
+    position:absolute;
+    font-size:10vh;
+    right: 38%;
+    
+    margin: 0 auto;
+    z-index:1;
+    
+    color:#f8f8f8;
+
+}
+.bg h6{
+    top:21%;
+    position:absolute;
+    font-size:10vh;
+    right: 10%;
+    
+    margin: 0 auto;
+    z-index:1;
+    
+    color:#e94a4a;
+    
+}
+
+
 .team{
     position: relative;
     padding-bottom: 80px;
@@ -136,7 +229,7 @@ a {
 }
 .about img{
     float:right;
-    width:40%;
+    width:35%;
 }
 .about{
     position:relative;
@@ -206,27 +299,130 @@ padding: 20px;
 display: block;
 color: white;
 }
-.onam {
-position: absolute;
-top: 30%;
-}
+
 
 @media only screen and (max-width: 1400px){
-    .onam{
-        width:50%;
-    }
-    .onam img{
-        width: 80%;
-        height: 80%;
-    }
     .footer{
         height: 430px;
     }
     .logo1{
         left:40%;
     }
+    .bg img{
+        right:10%;
+    }
 
 }
+@media only screen and (max-width: 1290px){
+    .bg img{
+        right:5%;
+    }
+    .bg img{
+        overflow:hidden;
+        top:43%;
+        right:0;
+        width:99%;
+        height:60%;
+    }
+    .bg h1{
+        font-size:11vw;
+        font-size:8vh;
+        left:5%;
+        top:8%;
+
+    }
+    .bg h2{
+        font-size:10vw;
+        font-size:8vh;
+        top:15%;
+        left:28%;
+    }
+    .bg h3{
+        font-size:10vw;
+        font-size:8vh;
+        top:22%;
+        left:30%;
+    }
+    .bg h4{
+        top:30%;
+        font-size:10vw;
+        font-size:8vh;
+
+        left:5%;
+        
+
+    }
+    .bg h5{
+        font-size:10vw;
+        font-size:8vh;
+
+        top:38%;
+        left:28%;
+
+    }
+    .bg h6{
+        font-size:10vw;
+        font-size:7vh;
+
+        top:47%;
+        left:53%;
+
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .bg{
+        width:102vw;
+    }
+    .bg img{
+        overflow:hidden;
+        top:43%;
+        right:0;
+        width:99%;
+        height:60%;
+    }
+    .bg h1{
+        font-size:11vw;
+        
+        left:5%;
+        top:8%;
+
+    }
+    .bg h2{
+        font-size:10vw;
+        font-size:8vh;
+        top:15%;
+        left:28%;
+    }
+    .bg h3{
+        font-size:10vw;
+        
+        top:22%;
+        left:30%;
+    }
+    .bg h4{
+        top:30%;
+        font-size:10vw;
+        font-size:8vh;
+
+        left:5%;
+        
+
+    }
+    .bg h5{
+        font-size:10vw;
+        top:38%;
+        left:28%;
+
+    }
+    .bg h6{
+        font-size:10vw;
+        top:47%;
+        left:50%;
+
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .nav-menu {
         position: fixed;
@@ -274,9 +470,49 @@ top: 30%;
     .header{
         height:60px;
     }
+    .bg h1{
+        font-size:11vw;
+        left:5%;
+        top:8%;
+
+    }
+    .bg h2{
+        font-size:10vw;
+        top:15%;
+        left:28%;
+    }
+    .bg h3{
+        font-size:10vw;
+        top:22%;
+        left:34%;
+    }
+    .bg h4{
+        top:30%;
+        font-size:10vw;
+        left:5%;
+        
+
+    }
+    .bg h5{
+        font-size:10vw;
+        top:38%;
+        left:28%;
+
+    }
+    .bg h6{
+        font-size:10vw;
+        top:47%;
+        left:53%;
+
+    }
     .bg{
         padding-bottom: 0;
     }
+    .bg img{
+        height: 60%;
+        top:40%;
+    }
+    
     .team{
         align-items: center;
         display:block;
@@ -325,9 +561,7 @@ top: 30%;
         font-size: 2vh;
     }
 
-    .onam{
-        display: none;
-    }
+    
     .yt{
         padding-bottom: 10px;
         right:19%;
@@ -345,6 +579,7 @@ top: 30%;
     }
 
 }
+
 @media only screen and (max-width: 550px) {
     .nav-menu {
         position: fixed;
@@ -392,8 +627,19 @@ top: 30%;
         height:60px;
     }
     .bg{
+        
+        width:75vh;
         padding-bottom: 0;
     }
+    .bg img{
+        max-width:  500px;
+        position: absolute;
+        top:50%;
+        height:50vh;
+        right: 0;
+        
+    }
+    
     .team{
         align-items: center;
         display:block;
@@ -421,6 +667,7 @@ top: 30%;
         padding-left: 0;
     }
     .about{
+
         align-items: center;
         display:block;
         position: relative;
@@ -445,9 +692,7 @@ top: 30%;
         font-size: 2vh;
     }
 
-    .onam{
-        display: none;
-    }
+    
     .yt{
         position: absolute;
         
@@ -476,3 +721,63 @@ top: 30%;
     }
 
 }
+@media only screen and (max-width: 450px) {
+    .bg h1{
+        font-size:11vw;
+        left:5%;
+        top:17%;
+
+    }
+    .bg h2{
+        font-size:10vw;
+        top:23%;
+        left:28%;
+    }
+    .bg h3{
+        font-size:10vw;
+        top:29%;
+        left:34%;
+    }
+    .bg h4{
+        top:38%;
+        font-size:10vw;
+        left:5%;
+        
+
+    }
+    .bg h5{
+        font-size:10vw;
+        top:44%;
+        left:28%;
+
+    }
+    .bg h6{
+        font-size:10vw;
+        top:51%;
+        left:55%;
+
+    }
+      
+    .bg{
+        width:103vw;
+        height:99vh;
+    }
+    .bg img{
+        width:99%;
+        left:0;
+    }
+    
+}
+@media only screen and (max-width: 340px) {
+      
+    
+    .bg{
+        width:106vw;
+    }
+    .bg img{
+        width:96%;
+        left:0;
+    }
+    
+}
+
