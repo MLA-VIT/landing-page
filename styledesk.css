@@ -1,0 +1,376 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-image:linear-gradient(to bottom,#f13b3a 40%,#f09897 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+   
+
+.diamond1 {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    margin-top: 2.2%;
+    margin-left: 11.5%;
+  }
+  .diamond1:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: white;
+  }
+
+  .line1 {
+      width: 30vw;
+      height:  0.45vw;
+      border-radius: 0.36vw;
+      background: white;
+      position: absolute;
+      margin-top:4.2%;
+      margin-left: 13%;
+  }
+
+  .year{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.59vw;
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+
+  .diamond2 {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    margin-top: 2.2%;
+    margin-left: 86.5%;
+  }
+  .diamond2:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: white;
+  }
+
+  .line2 {
+      width: 30vw;
+      height:  0.45vw;
+      border-radius: 0.36vw;
+      background: white;
+      position: absolute;
+      margin-top:4.2%;
+      margin-left: 57%;
+  }
+
+  .chairperson_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .vicechairperson_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .secretary_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 108%;
+    left: 26%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .cosecretary_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 108%;
+    left: 42%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .programshead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 108%;
+    left: 58%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .outreachhead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 108%;
+    left: 74%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .publicityhead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 142%;
+    left: 26%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .documentationhead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 142%;
+    left: 42%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .financehead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 142%;
+    left: 58%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .creativehead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 142%;
+    left: 74%;
+    transform: translateX(-50%);
+    color: white;
+  }
+
+
+  .chairperson_circle {
+      width:  7.3vw;
+      height:  7.3vw;
+      border-radius: 50%;
+      position: absolute;
+      top: 23%;
+      left: 50%;
+    transform: translateX(-50%);
+      background:white;
+  }
+  .chairperson_namepos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17vw;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+
+  .vicechairperson_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+  transform: translateX(-50%);
+    background:white;
+}
+.vicechairperson_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.secetary_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 91%;
+    left: 26%;
+  transform: translateX(-50%);
+    background:white;
+}
+.secetary_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 113%;
+  left: 26%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.cosecetary_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 91%;
+    left: 42%;
+  transform: translateX(-50%);
+    background:white;
+}
+.cosecetary_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 113%;
+  left: 42%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.programshead_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 91%;
+    left: 58%;
+  transform: translateX(-50%);
+    background:white;
+}
+.programshead_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 113%;
+  left: 58%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.outreachhead_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 91%;
+    left: 74%;
+  transform: translateX(-50%);
+    background:white;
+}
+.outreachhead_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 113%;
+  left: 74%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.publicityhead_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 125%;
+    left: 26%;
+  transform: translateX(-50%);
+    background:white;
+}
+.publicityhead_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 147%;
+  left: 26%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.documentationhead_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 125%;
+    left: 42%;
+  transform: translateX(-50%);
+    background:white;
+}
+.documentationhead_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 147%;
+  left: 42%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.financehead_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 125%;
+    left: 58%;
+  transform: translateX(-50%);
+    background:white;
+}
+.financehead_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 147%;
+  left: 58%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.creativehead_circle {
+    width:  7.3vw;
+    height:  7.3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 125%;
+    left: 74%;
+  transform: translateX(-50%);
+    background:white;
+}
+.creativehead_namepos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17vw;
+  position: absolute;
+  top: 147%;
+  left: 74%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+
+
