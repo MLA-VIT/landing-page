@@ -40,6 +40,7 @@ body {
 }
 
 .row {
+    
     font-size: 125%;
     text-align: center;
 }
@@ -69,7 +70,7 @@ body {
     height: 50vw;
 }
 .about img{
-    padding-top:5%;
+    padding-top:11%;
     padding-left: 5%;
     width:35%;
 }
@@ -77,17 +78,21 @@ body {
     position:absolute;
     margin: 30px;
     color: #fdfdfd;
+    padding-top: 11%;
     top:0;
     width:50%;
     right:0;
-    height:30vw;
+    height:35vw;
     
 }
 .text1 h1{
     position:absolute;
-    top:0;
+    top:10%;
+    width:35vw;
+    color:#8F0000;
+    padding-top: 5%;
     font-size:4vw;
-    right:40%;
+    right:25%;
     
 
 }
@@ -95,6 +100,9 @@ body {
     position:absolute;
     top:40%;
     font-size:1.3vw;
+}
+#about{
+    right:0;
 }
 .events{
     padding:30px;
@@ -114,10 +122,10 @@ body {
     margin:0;
 }
 :root {
---page-margin: min(2rem, 5vw);
-color: #444;
-}
-
+    --page-margin: min(2rem, 5vw);
+    color: #444;
+    }
+    
 section {
     position: absolute;
     right: 0;
@@ -153,11 +161,30 @@ padding-right: var(--page-margin);
     height: 30vw;
     width: 30vw;
 }
+.dts{
+    position: absolute;
+    bottom: 0;
+    height: 11vw;
+    width: 30vw;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,rgba(222, 186, 186, 0.819), #FE5558,#8F0000);
+    z-index: 1;
+    
+}
+
+.dts h1{
+    font-size:1vw;
+    color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 5%;
+}
+
 .tont{
     position: absolute;
     bottom:10%;
     right:5%;
     font-size: 1vw;
+    z-index: 2;
     
 }
 .tont a{
@@ -183,6 +210,9 @@ padding-right: var(--page-margin);
     clear: both;
   }
 .column img{
+    padding-top:3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
     width: 50%;
 }
 
@@ -202,9 +232,11 @@ padding-right: var(--page-margin);
     color:white;
 }
 .text3 h1{
-    font-size: 3vw;
+    color:#8F0000;
+    font-size: 3.5vw;
     position: absolute;
-    left:20%;
+    left:15%;
+    font-weight: bold;
 }
 .text3 p{
     position:absolute;
@@ -215,19 +247,28 @@ padding-right: var(--page-margin);
     text-align: left;
     width:70%;
 }
+#news{
+    color: #FE5858;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 1;
+}
 .text4{
     color:white;
     position: absolute;
     width: 80%;
-    bottom: 10%;
-    right:0;
+    bottom: 5%;
+    right:10%;
     height:27vw;
     
 }
 .text4 h1{
+    right:19%;
+    position:absolute;
+    color:#8F0000;
     font-family: Montserrat;
-    font-size:3vw;
-    left:20%;
+    font-size:3.5vw;
+    font-weight:1400;
+    
 }
 .text4 p{
     position:absolute;
@@ -248,10 +289,11 @@ padding-right: var(--page-margin);
 .cont{
     font-size:1.5vw;
     position: absolute;
-    left:30%;
-    top:15%;
+    left:20%;
+    top:0;
 }
 .cont h2{
+    padding-bottom: 2%;
     margin:0;
     font-size: 1.5vw;
     color: #444;
@@ -259,7 +301,7 @@ padding-right: var(--page-margin);
 }
 .cont a{
     font-size:1.5vw ;
-    margin:0;
+    margin-top:2vw;
     color:#444
 }
 .soc{
@@ -271,15 +313,16 @@ padding-right: var(--page-margin);
     
 }
 .soc-item img{
-    width:2%;
+    width:2.3%;
     
 }
 .yt{
     padding-top:1%;
+    padding-bottom:3%;
     padding-right: 2%;
     top: 0;
-    width:30vw;
-    height:20vw;
+    width:28vw;
+    height:18vw;
     position:absolute;
     right:0;
 }
@@ -287,11 +330,12 @@ padding-right: var(--page-margin);
     position:absolute;    
     left:45%;
     font-family: Montserrat;
-    font-weight:normal;
+    font-weight:lighter;
 }
 .coprt h1{
     font-size: 1.5vw;
     font-family: Montserrat;
-    font-weight:normal;
+    font-weight:lighter;
+    color:black;
 
 }
