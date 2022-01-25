@@ -4,7 +4,6 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(to bottom,#f24242 50%,#f09595);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
