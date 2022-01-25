@@ -32,11 +32,22 @@ body {
     display: inline;
     padding: 0.5rem 1rem;
     color: #FF5B5B;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #7e0000;
+}
+
+header {
+    height: 100vh;
 }
 
 .container {
     padding: 0;
     margin: 0;
+    width: 100vw;
 }
 
 .header-row {
@@ -47,9 +58,10 @@ body {
 .header-content {
     background-image: url(../images/homepage.png);
     background-size: cover;
-    background-position: center;
+    /* background-position: center bottom 10vh; */
     background-repeat: no-repeat;
-    height: 95vh;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 #literary {
@@ -59,6 +71,12 @@ body {
                 1px 1px 0 #FF5B5B,
                 1px -1px 0 #FF5B5B,
                 -1px -1px 0 #FF5B5B;
+}
+
+@media screen and (max-width: 600px){
+    #malayalam {
+        display: none !important;
+    }
 }
 .about{
     position: relative;
@@ -281,6 +299,7 @@ padding-right: var(--page-margin);
 }
 .footer{
     position: relative;
+    padding-top:5vh;
 }
 .footer #logo{
     margin-left:2%;
@@ -295,6 +314,7 @@ padding-right: var(--page-margin);
     position: absolute;
     left:22%;
     top: 0;
+    padding-top: 2vh;
 }
 .cont h2{
     padding: 2% 0 2% 0;
@@ -325,7 +345,7 @@ padding-right: var(--page-margin);
     
 }
 .yt{
-    padding-top:1%;
+    padding-top:5vh;
     padding-bottom:3%;
     padding-right: 2%;
     top: 0;
