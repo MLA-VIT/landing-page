@@ -304,11 +304,13 @@ padding-right: var(--page-margin);
     width:70%;
 }
 .br{
+    padding-top: 10px;
     position: relative;
     width:100vw;
     height:100vw;
 }
 .board{
+    padding-top: 10px;
     position:absolute;
     bottom:0;
     width:100vw;
