@@ -58,10 +58,15 @@ header {
 .header-content {
     background-image: url(../images/homepage.png);
     background-size: cover;
-    /* background-position: center bottom 10vh; */
+    background-position: center top 15vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+}
+@media screen and (min-width:1024px){
+    .header-content {
+        background-position: center top 10vh;
+    }
 }
 
 #literary {
