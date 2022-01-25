@@ -24,7 +24,7 @@ body {
 
 .secrect {
     width: 95%;
-    height: 60vw;
+    height: 88vw;
     background:#c34444;
     position: absolute;
     margin-top: 7.5%;
@@ -42,24 +42,27 @@ body {
     transform:translate(-50%,-50%);
 }
 
+#image:hover {
+    opacity: 0.4;
+}
+
 .chairperson_img{
     width: 20vw;
     height: 16vw;
     position: absolute;
     margin-top: 13.8%;
     margin-left: 24%;
-    border-radius: 0.36vw;
-    overflow-wrap: break-word;
+    border-radius: 0.56vw;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .chairperson_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: 2.5vw;
+    font-size: 1.3vw;
     position: absolute;
-    margin-top: 26.5%;
-    margin-left: 25%;
-    color: white;
+    margin-top: 27%;
+    margin-left: 24.5%;
+    color: rgb(250, 236, 236);
 }
 .chairperson_namepos{
     font-family: 'Montserrat', sans-serif;
@@ -74,21 +77,20 @@ body {
 .vicechairperson_img{
     width: 20vw;
     height: 16vw;
-    overflow-wrap: break-word;
     position: absolute;
     margin-top: 13.8%;
-    margin-left: 56.5%;
-    border-radius: 0.36vw;
+    margin-left: 54%;
+    border-radius: 0.56vw;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .vicechairperson_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: 2.5vw;
+    font-size: 1.3vw;
     position: absolute;
-    margin-top: 26.5%;
-    margin-left: 57.5%;
-    color: white;
+    margin-top: 27%;
+    margin-left: 54.5%;
+    color: rgb(250, 236, 236);
 }
 .vicechairperson_namepos{
     font-family: 'Montserrat', sans-serif;
@@ -96,7 +98,7 @@ body {
     font-size: 2vw;
     position: absolute;
     margin-top: 31%;
-    left: 62%;
+    margin-left: 59%;
     color: #1b0909;
 }
 .vice {
@@ -105,30 +107,29 @@ body {
     font-size: 2vw;
     position: absolute;
     margin-top: 31%;
-    left: 56%;
+    margin-left: 53.2%;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #1b0909;
     -webkit-text-fill-color: transparent;
 }
 
 .secretary_img{
-    width: 13vw;
+    width: 15vw;
     height: 20vw;
     position: absolute;
     margin-top: 39.5%;
-    margin-left: 6%;
+    margin-left: 4%;
     border-radius: 0.36vw;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    overflow-wrap: break-word;
 }
 .secretary_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: 2.5vw;
+    font-size: 1.3vw;
     position: absolute;
     margin-top: 56.5%;
-    margin-left: 7%;
-    color: white;
+    margin-left: 4.5%;
+    color: rgb(250, 236, 236);
 }
 .secretary_namepos{
     font-family: 'Montserrat', sans-serif;
@@ -136,28 +137,27 @@ body {
     font-size: 2vw;
     position: absolute;
     margin-top: 60.5%;
-    margin-left: 6%;
+    margin-left: 5%;
     color: #1b0909;
 }
 
 .cosecretary_img{
-    width: 13vw;
+    width: 15vw;
     height: 20vw;
     position: absolute;
     margin-top: 39.5%;
-    margin-left: 30.5%;
+    margin-left: 28.5%;
     border-radius: 0.36vw;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    overflow-wrap: break-word;
 }
 .cosecretary_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: 2.5vw;
+    font-size: 1.3vw;
     position: absolute;
     margin-top: 56.5%;
-    margin-left: 31.5%;
-    color: white;
+    margin-left: 29%;
+    color: rgb(250, 236, 236);
 }
 .cosecretary_namepos{
     font-family: 'Montserrat', sans-serif;
@@ -165,7 +165,7 @@ body {
     font-size: 2vw;
     position: absolute;
     margin-top: 60.5%;
-    margin-left: 32.5%;
+    margin-left: 30.5%;
     color: #1b0909;
 }
 .co {
@@ -174,30 +174,29 @@ body {
         font-size: 2vw;
         position: absolute;
         margin-top: 60.5%;
-        margin-left: 28.5%;
+        margin-left: 26.5%;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #1b0909;
         -webkit-text-fill-color: transparent;
 }
 
 .programshead_img{
-    width: 13vw;
+    width: 15vw;
     height: 20vw;
     position: absolute;
     margin-top: 39.5%;
-    margin-left: 56%;
+    margin-left: 54%;
     border-radius: 0.36vw;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    overflow-wrap: break-word;
 }
 .programshead_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: 2.5vw;
+    font-size: 1.3vw;
     position: absolute;
     margin-top: 56.5%;
-    margin-left: 57%;
-    color: white;
+    margin-left: 54.5%;
+    color: rgb(250, 236, 236);
 }
 .programshead_namepos{
     font-family: 'Montserrat', sans-serif;
@@ -205,28 +204,28 @@ body {
     font-size: 2vw;
     position: absolute;
     margin-top: 60.5%;
-    margin-left: 53%;
+    margin-left: 51%;
     color: #1b0909;
 }
 
 .outreachhead_img{
-    width: 13vw;
+    width: 15vw;
     height: 20vw;
     position: absolute;
     margin-top: 39.5%;
-    margin-left: 81%;
+    margin-left: 80.5%;
     border-radius: 0.36vw;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    overflow-wrap: break-word;
 }
 .outreachhead_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: 2.5vw;
+    font-size: 1.3vw;
     position: absolute;
     margin-top: 56.5%;
-    margin-left: 82%;
-    color: white;
+    margin-left: 81%;
+    color: rgb(250, 236, 236);
+    
 }
 .outreachhead_namepos{
     font-family: 'Montserrat', sans-serif;
@@ -234,6 +233,128 @@ body {
     font-size: 2vw;
     position: absolute;
     margin-top: 60.5%;
-    margin-left: 78%;
+    margin-left: 77.5%;
+    color: #1b0909;
+}
+
+.publicityhead_img{
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: 69%;
+    margin-left: 4%;
+    border-radius: 0.36vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.publicityhead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 86%;
+    margin-left: 4.5%;
+    color: rgb(250, 236, 236);
+}
+.publicityhead_namepos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 3%;
+    color: #1b0909;
+}
+
+.documentationhead_img{
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: 69%;
+    margin-left: 28.5%;
+    border-radius: 0.36vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.documentationhead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 84%;
+    margin-left: 29%;
+    color: rgb(250, 236, 236);
+}
+.documentationhead_namepos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 24%;
+    color: #1b0909;
+}
+.documentationhead_name2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 86%;
+    margin-left: 29%;
+    color: rgb(250, 236, 236);
+}
+
+
+.financehead_img{
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: 69%;
+    margin-left: 54%;
+    border-radius: 0.36vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.financehead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 86%;
+    margin-left: 54.5%;
+    color: rgb(250, 236, 236);
+}
+.financehead_namepos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 53%;
+    color: #1b0909;
+}
+
+.creativehead_img{
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: 69%;
+    margin-left: 80.5%;
+    border-radius: 0.36vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.creativehead_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 86%;
+    margin-left: 81%;
+    color: rgb(250, 236, 236);
+}
+.creativehead_namepos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 78.5%;
     color: #1b0909;
 }
