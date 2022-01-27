@@ -64,26 +64,6 @@ header {
     background-attachment: fixed;
     height: 100vh;
 }
-@media screen and (min-width:1024px){
-    .header-content {
-        background-position: center top 10vh;
-    }
-}
-
-#literary {
-    color: #fff;
-    letter-spacing: 3px;
-    text-shadow: -1px 1px 0 #FF5B5B,
-                1px 1px 0 #FF5B5B,
-                1px -1px 0 #FF5B5B,
-                -1px -1px 0 #FF5B5B;
-}
-
-@media screen and (max-width: 600px){
-    #malayalam {
-        display: none !important;
-    }
-}
 .about{
     position: relative;
     background-image:url(../images/background.jpg);
@@ -220,7 +200,7 @@ padding-right: var(--page-margin);
     background-position: center;
     background-repeat: no-repeat;
     height: 50vw;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0
 }
 .column {
     position: relative;
@@ -242,7 +222,6 @@ padding-right: var(--page-margin);
 
 #lit{
     position: absolute;
-    
     padding-bottom: 30px;
     right:10%;
 }
@@ -253,6 +232,7 @@ padding-right: var(--page-margin);
     left: 10%;
 }
 .text3{
+    position: absolute;
     color:white;
 }
 .text3 h1{
@@ -304,11 +284,13 @@ padding-right: var(--page-margin);
     width:70%;
 }
 .br{
+    padding-top: 10px;
     position: relative;
     width:100vw;
     height:100vw;
 }
 .board{
+    padding-top: 10px;
     position:absolute;
     bottom:0;
     width:100vw;
@@ -389,12 +371,188 @@ padding-right: var(--page-margin);
     color:black;
 
 }
-@media screen and (max-width:500px) and (min-width:200px){
+@media screen and (max-width:1024px) and (min-width:200px){
+    #malayalam {
+        display: none !important;
+    }
+    .about {
+        height:220vw;
+    }
+    .about img{
+        width:90%;
+    }
+    .text1{
+        top:35%;
+        height:90vw;
+        width:90%;
+        left:0;
+    }
+    .text1 h1{
+        top:0;
+        left:10%;
+        width:70vw;
+        font-size:10vw;
+        
+        
+    }
+    .text1 p{
+        font-size:4vw;
+        top:30%;
+        left:0;
+        width:100%;
+        height:90vw;
+    
+    }
+    .events{
+        height:150vw;
+    }
+    .text2{
+        transform: rotate(0deg);
+        top:10%;
+        left:10%;
+        font-size:10vw;
+
+    }
+    section {
+        left: 0;
+        top:45%;
+        width: 98%;
+    
+    }
+    .newmag{
+        height:350vw;
+        padding:0;
+    }
+    .column{
+        width: 100%;
+        height:170vw;
+    }
+    .column img {
+        top:2%;
+        width:70%;
+    }
+    #newlt{
+        top:0;
+    }
+    .text3{
+        top:50%;
+        height: 85vw;
+        width: 100%;
+
+    }
+    .text3 h1{
+        font-size:7vw;
+        top:0;
+        padding-bottom:1%;
+        left:20%;
+    }
+    .text3 p{
+        font-size:3.5vw;
+        width: 75%;
+        left:15%;
+        top:20%;
+    }
+    .text4{
+        top:45%;
+        height: 75vw;
+        width: 100%;
+    }
+    .text4 h1{
+        font-size:7vw;
+        top:0;
+        padding-bottom:1%;
+        left:30%;
+    }
+    .text4 p{
+        font-size:3.5vw;
+        width: 75%;
+        left:25%;
+        top:20%;
+    }
+
+
+    
+    .card {
+        height: 70vw;
+        width: 70vw;
+    }
+    .card img{
+        height: 70vw;
+        width: 70vw;
+    }
     .br{
         height:740vw;
     }
     .board{
         height:740vw;
+    }
+    .footer{
+        position: relative;
+        height:100vw;
+        padding:2vh;
+    }
+    .footer #logo{
+        margin-left:0;
+    }
+    .footer img{
+        position:absolute;
+        width: 45vw;
+        bottom: 18%;
+        
+        
+    }
+    .cont{
+        width:45vw;
+        top: 38%;
+        left:55%;
+        font-size: 3.5vw;
+    }
+    .cont h2{
+        font-size: 3.5vw;
+    }
+    .cont a{
+        font-size: 3.5vw;
+    }
+
+    .hr{
+        position:absolute;
+        bottom:6%;
+        z-index:6;
+        width:93%;
+    }
+    .soc{
+        position:absolute;
+        bottom: 10%;
+        left:15%;
+        height:10vw;
+        width:70vw;
+        
+
+    }
+    .soc-item{
+        padding-right: 13vw;
+    }
+    .soc-item #yt {
+        margin-top: 1%;
+        width: 8%;
+    }
+    .soc-item img{
+        width:8%;
+    }
+    .yt{
+        padding-top:0;
+        top: 3%;
+        right:13%;
+        width:68vw;
+        height:43vw;
+    }
+    .coprt{
+        bottom: 0;
+        left:40%;
+    }
+    .coprt h1{
+        font-size:3vw;
+
     }
 }
 @media screen and (max-width:1024px) and (min-width:500px){
@@ -404,4 +562,18 @@ padding-right: var(--page-margin);
     .board{
         height:740vw;
     }
+}
+@media screen and (min-width:1024px){
+    .header-content {
+        background-position: center top 10vh;
+    }
+}
+
+#literary {
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: -1px 1px 0 #FF5B5B,
+                1px 1px 0 #FF5B5B,
+                1px -1px 0 #FF5B5B,
+                -1px -1px 0 #FF5B5B;
 }
