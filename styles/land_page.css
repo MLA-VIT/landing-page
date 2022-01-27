@@ -232,7 +232,7 @@ padding-right: var(--page-margin);
     left: 10%;
 }
 .text3{
-    position: absolute;
+    
     color:white;
 }
 .text3 h1{
@@ -249,7 +249,7 @@ padding-right: var(--page-margin);
     color:white;
     top:15%;
     text-align: left;
-    width:70%;
+    width:90%;
 }
 #news{
     color: #FE5858;
@@ -435,6 +435,7 @@ padding-right: var(--page-margin);
         top:0;
     }
     .text3{
+        position:absolute;
         top:50%;
         height: 85vw;
         width: 100%;
