@@ -9,12 +9,16 @@ a {
 }
 
 body {
-    background-color: rgb(253,50,53);
+    background-image:url(../images/magazine/bg.jpg);
+    background-size: cover;
+    background-position: center top 15vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
     width: 100%;
-    color: rgb(253,50,53);
+    color: rgb(255,70,70);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,14 +28,14 @@ body {
     align-items: center;
     text-align: center;
     padding: 1.5rem;
-    color: rgb(253,50,53);
+    color: rgb(255,70,70);
     
 }
 
 .nav-link {
     display: inline;
     padding: 0.5rem 1rem;
-    color: rgb(253,50,53);
+    color: rgb(255,70,70);
     transition: 0.5s;
 }
 
@@ -54,7 +58,7 @@ header {
     background-color: white;
     position: relative;
     height: 42vw;
-    color: rgb(253,50,53);
+    color: rgb(255,70,70);
 }
 .rep_writ h1{
     font-size:5vw;
@@ -62,16 +66,16 @@ header {
 }
 #sp {
     color: #fff;
-    text-shadow: -1px 1px 0 rgb(253,50,53),
-                1px 1px 0 rgb(253,50,53),
-                1px -1px 0 rgb(253,50,53),
-                -1px -1px 0 rgb(253,50,53);
+    text-shadow: -1px 1px 0 rgb(255,70,70),
+                1px 1px 0 rgb(255,70,70),
+                1px -1px 0 rgb(255,70,70),
+                -1px -1px 0 rgb(255,70,70);
 }
 .bottom-block {
     position: absolute;
     bottom: 0;
     right: 0;
-    border-bottom: 20vw solid rgb(253,50,53);
+    border-bottom: 20vw solid rgb(255,70,70);
 	border-left: 15vw solid transparent;
 	width: 84.9vw;
 }
@@ -79,7 +83,7 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    border-bottom: 22.5vw solid rgb(253,50,53);
+    border-bottom: 22.5vw solid rgb(255,70,70);
 	border-left: 85vw solid transparent;
     width:1vw;
 	
@@ -116,40 +120,42 @@ header {
     width:10%;
     
 }
-.main-body{
-    background-image:url(../images/background.jpg);
+.avani{
     position: relative;
     width:100vw;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment:scroll;
     
-    height:80vw;
+    height:45vw;
 }
-.main-body h1{
+.avani h1{
     position: absolute;
     color:white;
     top: 10%;
-    right: 40%;
+    right: 10%;
     font-weight: normal;
     font-size:5vw;
 }
-.main-body h2{
+.avani h2{
     position: absolute;
     color:white;
-    top: 17%;
-    right: 45%;
+    top: 22%;
+    right: 15%;
     font-weight: normal;
     font-size:4vw;
 }
-.main-body img{
+.avani img{
     position: absolute;
-    top:28%;
-    left: 35%;
-    width:30%;
+    top:8%;
+    left: 0;
+    width:40%;
 }
 
 .visit_pg{
     position: absolute;
-    bottom:10%;
-    left:37%;
+    top:41%;
+    right:8%;
 
     width:20vw;
     height:10vw;
@@ -159,13 +165,66 @@ header {
 }
 .downld_bt{
     position: absolute;
-    bottom:4%;
-    left:42%;
+    top:50%;
+    right:3%;
     width:20vw;
     height:10vw;
 }
 .downld_bt img{
     width:10%;
+}
+.jwala{
+    
+    position: relative;
+    width:100vw;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment:scroll;
+    height:45vw;
+}
+.jwala h1{
+    position: absolute;
+    color:white;
+    top: 10%;
+    left: 10%;
+    font-weight: normal;
+    font-size:5vw;
+}
+.jwala h2{
+    position: absolute;
+    color:white;
+    top: 22%;
+    left: 10%;
+    font-weight: normal;
+    font-size:4vw;
+}
+.jwala img{
+    position: absolute;
+    top:8%;
+    right: 2%;
+    width:40%;
+}
+
+.jw_visit_pg{
+    position: absolute;
+    top:45%;
+    left:3%;
+
+    width:20vw;
+    height:10vw;
+}
+.jw_visit_pg img{
+    width:60%;
+}
+.jw_downld_bt{
+    position: absolute;
+    top:54%;
+    left:3%;
+    width:15vw;
+    height:10vw;
+}
+.jw_downld_bt img{
+    width:15%;
 }
 @media screen and (max-width:1024px) and (min-width:200px){
     .rep_writ{
@@ -175,13 +234,13 @@ header {
         font-size:15vw;
     }
     .bottom-block{
-        border-bottom:  70vw solid rgb(253,50,53);
+        border-bottom:  70vw solid rgb(255,70,70);
     }
     .top-block{
         bottom:36%;
         border-left: 85vw solid transparent;
 
-        border-bottom: 110.2vw solid rgb(253,50,53);
+        border-bottom: 110.2vw solid rgb(255,70,70);
     }
     .text-on-block{
         right:10%;
@@ -203,31 +262,64 @@ header {
     .soc-item img{
         width:20%;
     }
-    .main-body{
+    .avani{
         
         height:180vw;
 
     }
-    .main-body h1{
+    .avani h1{
         font-size:10vw;
         top:8%;
         right:30%;
     }
-    .main-body h2{
+    .avani h2{
         font-size: 8vw;
         right:38%;
     }
-    .main-body img{
-        width:70%;
-        left:17vw;
+    .avani img{
+        top:30%;
+        width:90%;
+        left:4%;
     }
     .visit_pg{
-        width: 35vw;
+        top:75%;
+        width: 50vw;
+        height:15vw;
         left:24%;
     }
     .downld_bt{
-        left:34%;
-        width:10vw;
+        top:85%;
+        left:40%;
+        width:15vw;
+    }
+    .jwala{
+        
+        height:180vw;
+
+    }
+    .jwala h1{
+        font-size:10vw;
+        left:35%;
+    }
+    .jwala h2{
+        font-size: 8vw;
+        left:35%;
+    }
+    .jwala img{
+        top:30%;
+        width:90%;
+        left:3%;
+    }
+    .jw_visit_pg{
+        top:75%;
+        width: 50vw;
+        height:15vw;
+        left:24%;
+    }
+    .jw_downld_bt{
+        top:85%;
+        left:40%;
+        width:15vw;
     }
     
 }

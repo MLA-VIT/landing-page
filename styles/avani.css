@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image:url(../images/magazine/bg.jpg);
+    background-size: cover;
+    background-position: center top 15vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: rgb(255,70,70);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(255,70,70);
+    
+}
+
+.nav-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: rgb(255,70,70);
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #051602;
+}
+
+header {
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+.view{
+    position: absolute;
+    height: 40vw;
+    top: 7vw;
+    left:13vw;
+}
+.view1{
+    height:40vw;
+    width:70vw;
+}
+@media screen and (max-width:1024px) and (min-width:200px){
+    .view{
+        top:20%;
+        left:3.5vw;
+    }
+    .view1{
+        height: 130vw;
+        width:90vw;
+
+    }
+}
