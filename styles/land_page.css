@@ -150,7 +150,7 @@ padding-bottom: 1rem;
 padding-right: var(--page-margin);
 }
 
-.card {
+.event-card {
     position: relative;
     display: grid;
     place-content: center;
@@ -160,7 +160,7 @@ padding-right: var(--page-margin);
     height: 30vw;
     width: 30vw;
 }
-.card img{
+.event-card img{
     height: 30vw;
     width: 30vw;
 }
@@ -286,7 +286,7 @@ padding-right: var(--page-margin);
 .br{
     padding-top: 10px;
     position: relative;
-    width:100vw;
+    width:98vw;
     height:100vw;
 }
 .board{
@@ -296,6 +296,32 @@ padding-right: var(--page-margin);
     width:100vw;
     height:100vw;
     background-image: linear-gradient(to bottom,#f24242 50%,#f09595);
+}
+.yrs{
+    position:absolute;
+    bottom:0;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    width: 90vw;
+    height: 5vw;
+    color: #ececec;
+}
+.yrs-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.yrs-menu a{
+    font-size: 2vw;
+}
+
+.yrs-link:hover{
+    transition: 0.5s;
+    color: #eeeeee;
 }
 .footer{
     position: relative;
@@ -428,7 +454,7 @@ padding-right: var(--page-margin);
         height:170vw;
     }
     .column img {
-        top:2%;
+        top:2%; 
         width:70%;
     }
     #newlt{
@@ -473,11 +499,11 @@ padding-right: var(--page-margin);
 
 
     
-    .card {
+    .event-card {
         height: 70vw;
         width: 70vw;
     }
-    .card img{
+    .event-card img{
         height: 70vw;
         width: 70vw;
     }
@@ -486,6 +512,13 @@ padding-right: var(--page-margin);
     }
     .board{
         height:740vw;
+    }
+    .yrs{
+        width:88vw;
+        bottom:3%;
+    }
+    .yrs-menu a{
+        font-size:6vw;
     }
     .footer{
         position: relative;

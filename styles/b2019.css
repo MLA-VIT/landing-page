@@ -1,14 +1,91 @@
-html {
-    height: 100%;
-}
-body {
-    height: 100%;
-    margin: 0;
-    background-image: linear-gradient(to bottom,#f24242 50%,#f09595);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+li {
+    list-style: none;
+    display: inline;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(255,70,70);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(255,70,70);
+    
+}
+
+.nav-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: rgb(255,70,70);
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #051602;
+}
+
+header {
+    height: 100vh;
+    background-color: #fff;
+
+}
+header {
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 7vw;
+    width: 100vw;
+}
+.br{
+    position: relative;
+    padding-top: 1vw;
+    height: 100vw;
+    
+}
+.yrs{
+    position:absolute;
+    bottom:0;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    width: 90vw;
+    height: 5vw;
+    color: #ececec;
+}
+.yrs-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.yrs-menu a{
+    font-size: 2vw;
+}
+
+.yrs-link:hover{
+    transition: 0.5s;
+    color: #eeeeee;
+}
 .firstyear{
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
@@ -23,9 +100,22 @@ body {
 }
 
 @media screen and (max-width:1024px) and (min-width:200px){
+    .container{
+        height: 30vw;
+    }
     .firstyear{
         font-size: 30vw;
         margin-top: 8.1%;
+    }
+    .br{
+        height: 650vw;
+    }
+    .yrs{
+        width:88vw;
+        bottom:2%;
+    }
+    .yrs-menu a{
+        font-size:6vw;
     }
 }
 
