@@ -1,0 +1,502 @@
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(255,70,70);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(255,70,70);
+    
+}
+
+.nav-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: rgb(255,70,70);
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #051602;
+}
+
+header {
+    height: 100vh;
+    background-color: #fff;
+
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 7vw;
+    width: 100vw;
+}
+.br{
+    position: relative;
+    padding-top: 1vw;
+    height: 120vw;
+    
+}
+.yrs{
+    position:absolute;
+    bottom:0;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    width: 90vw;
+    height: 5vw;
+    color: #ececec;
+}
+.yrs-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.yrs-menu a{
+    font-size: 2vw;
+}
+
+.yrs-link:hover{
+    transition: 0.5s;
+    color: #eeeeee;
+}
+.firstyear{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 11.7vw;
+    background: -webkit-linear-gradient(#f89494, #f46363);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-top: 3.3%;
+    margin-left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+@media screen and (max-width:1024px) and (min-width:200px){
+    .firstyear{
+        font-size: 30vw;
+        margin-top: 8.1%;
+    }
+}
+
+.secrect {
+    width: 95%;
+    height: 82vw;
+    background:#c34444;
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 2.5%;
+}
+
+.secrect2017{
+    height: 105vw;
+}
+
+@media screen and (max-width:1024px) and (min-width:200px){
+    .secrect{
+        width: 90%;
+    height: 665vw;
+    margin-top: 19%;
+    margin-left: 4.7%;
+    }
+
+    .secrect2019{
+        height: 600vw;
+    }
+
+    .secrect2017{
+        height: 790vw;
+    }
+}
+
+.secyear{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px #f67f7f;
+    color: #850d0d;
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+@media screen and (max-width:1024px) and (min-width:200px){
+    .secyear{
+        font-size: 14.5vw;
+        margin-top: 20%;
+    }
+}
+
+#image:hover {
+    opacity: 0.4;
+}
+
+.card{
+    box-shadow: 2px 8px 12px 2px rgb(0 0 0 / 0.2);
+    width:20%;
+    height:20vw;
+    border-radius:10px;
+    background:#c34444;
+    word-wrap:break-word;
+    position: absolute;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card {
+        width:50%;
+        height:51vw;
+        }
+    }
+
+    .img{
+        position:absolute;
+        margin-left:7%;
+        margin-top:7%;
+    max-width:85%;
+    max-height:80%;
+    width:auto;
+    height:auto;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    }
+    
+    .name{
+        position:absolute;
+        margin-left:15%;
+        margin-top:72%;
+        color:white;
+     font-family: 'Montserrat', sans-serif;
+    font-size:1.5vw;
+    font-weight:700;
+    }
+    
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .name {
+            font-size:3.5vw;
+        }
+    }
+
+    .position {
+     font-family: 'Montserrat', sans-serif;
+    color:#1e1e1f;
+    font-size:1.3vw;
+    letter-spacing:0.35vw;
+    position: absolute;
+    margin-left:14%;
+    margin-top:86%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .position{
+            letter-spacing:0.8vw;
+            font-size: 3.3vw;
+        }
+    }
+    .card1pos{
+        margin-left:23%;
+        margin-top:15%;
+    }
+
+     @media screen and (max-width:1024px) and (min-width:200px){
+        .card1pos {
+            margin-top: 35%;
+            margin-left:25%;
+        }
+    }
+
+    .card2pos{
+        margin-left:56%;
+        margin-top:15%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card2pos {
+            margin-left:25%;
+            margin-top:100%;
+        }
+    }
+
+    .name2pos{
+        margin-left:8.5%;
+    }
+
+    .position2pos{
+        margin-left: 2%;
+    }
+
+    .card3pos{
+        margin-left:3%;
+        margin-top:40%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card3pos{
+            margin-left: 25%;
+            margin-top:165%;
+        }
+    }
+
+    .name3pos{
+        margin-left: 8.5%;
+    }
+
+    .position3pos{
+        margin-left: 20.5%;
+    }
+
+    .card4pos{
+        margin-left: 27.5%;
+        margin-top:40%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card4pos{
+            margin-left: 25%;
+            margin-top:230%;
+        }
+    }
+
+    .name4pos{
+        margin-left: 23%;
+    }
+
+    .card5pos {
+        margin-left: 52.5%;
+        margin-top:40%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card5pos{
+            margin-left: 25%;
+            margin-top:295%;
+        }
+    }
+
+    .name5pos{
+        margin-left: 23%;
+    }
+
+    .position5pos{
+        margin-left: 8%;
+    }
+
+    .card6pos{
+        margin-left: 77%;
+        margin-top:40%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card6pos{
+            margin-left: 25%;
+            margin-top:360%;
+        }
+        .container{
+            height: 30vw;
+            padding-bottom: 1vw;
+        }
+        .firstyear{
+            font-size: 30vw;
+            margin-top: 8.1%;
+        }
+        .br{
+            height: 840vw;
+        }
+        .yrs{
+            width:88vw;
+            bottom:2%;
+        }
+        .yrs-menu a{
+            font-size:6vw;
+        }
+    }
+
+    .name6pos{
+        margin-left: 23%;
+    }
+
+    .position6pos{
+        margin-left:8%;
+    }
+
+    .card7pos{
+        margin-left:3%;
+        margin-top:65%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card7pos{
+            margin-left: 25%;
+            margin-top:425%;
+        }
+    }
+
+    .name7pos{
+        margin-left: 26%;
+    }
+
+    .position7pos{
+        margin-left:8%;
+    }
+
+    .card8pos{
+        margin-left: 27.5%;
+        margin-top:65%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card8pos{
+            margin-left: 25%;
+            margin-top:490%;
+        }
+    }
+
+    .name8pos{
+        margin-top: 65%;
+        margin-left: 10%;
+    }
+    .name8pos2{
+        margin-left: 10%;
+    }
+
+    .position8pos{
+        margin-left: 6%;
+    }
+
+    .card9pos {
+        margin-left: 52.5%;
+        margin-top: 65%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card9pos{
+            margin-left: 25%;
+            margin-top:555%;
+        }
+    }
+
+    .card10pos{
+        margin-left: 77%;
+        margin-top: 65%;
+    }
+
+    @media screen and (max-width:1024px) and (min-width:200px){
+        .card10pos{
+            margin-left: 25%;
+            margin-top:620%;
+        }
+
+        .card11pos2017{
+            margin-left: 25%;
+            margin-top: 685%;
+        }
+    
+        .card12pos2017{
+            margin-left: 25%;
+            margin-top: 750%;
+        }
+    }
+
+    .name10pos{
+        margin-left: 10%;
+    }
+
+    .position10pos{
+        margin-left: 12%;
+    }
+
+   @media screen and (max-width: 2560px) and (min-width:1024px) {
+
+    .card1pos2019{
+        margin-left: 10%;
+    }
+
+    .card2pos2019{
+        margin-left: 40%;
+    }
+
+    .card3pos2019{
+        margin-left: 70%;
+        margin-top: 15%;
+    }
+
+    .card4pos2019{
+        margin-left: 10%;
+    }
+
+    .card5pos2019{
+        margin-left:40%;
+    }
+
+    .card6pos2019{
+        margin-left: 70%;
+    }
+
+    .card7pos2019{
+        margin-left: 10%;
+        margin-top: 65%;
+    }
+
+    .card8pos2019{
+        margin-left: 40%;
+    }
+
+    .card9pos2019{
+        margin-left:70%;
+    }
+
+    .card11pos2017{
+        margin-left: 23%;
+        margin-top: 90%;
+    }
+
+    .card12pos2017{
+        margin-left: 56%;
+        margin-top: 90%;
+    }
+
+   }
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
