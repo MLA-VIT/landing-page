@@ -15,6 +15,12 @@
     transform:translate(-50%,-50%);
 }
 
+.socialicon img,.socialicon2 img,.socialicon3 img{
+    visibility: hidden;    
+    width: 50px;
+    
+}
+
 @media screen and (max-width:1024px) and (min-width:200px){
     .firstyear{
         font-size: 30vw;
@@ -72,6 +78,7 @@
 }
 
 #image:hover {
+
     opacity: 0.4;
 }
 
@@ -102,17 +109,21 @@
     height:auto;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
+    -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
     }
     
     .name{
         position:absolute;
         margin-left:15%;
-        margin-top:72%;
+        margin-top:56%;
         color:white;
      font-family: 'Montserrat', sans-serif;
     font-size:1.5vw;
     font-weight:700;
     }
+    
     
     @media screen and (max-width:1024px) and (min-width:200px){
         .name {
@@ -127,7 +138,7 @@
     letter-spacing:0.35vw;
     position: absolute;
     margin-left:14%;
-    margin-top:86%;
+    margin-top:72%;
     }
 
     @media screen and (max-width:1024px) and (min-width:200px){
@@ -277,7 +288,7 @@
     }
 
     .name8pos{
-        margin-top: 65%;
+        margin-top: 48%;
         margin-left: 10%;
     }
     .name8pos2{
@@ -285,6 +296,7 @@
     }
 
     .position8pos{
+        margin-top: 69%;
         margin-left: 6%;
     }
 
