@@ -9,7 +9,6 @@ a {
 }
 
 body {
-    background-image:url(../images/magazine/bg.jpg);
     background-size: cover;
     background-position: center top 15vh;
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    color: rgb(255,70,70);
+    background-color: rgb(255,70,70);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -52,7 +51,7 @@ header {
     background-color: #fff;
     padding: 0;
     margin: 0;
-    width: 100vw;
+    width: 100vw;;
 }
 .rep_writ{
     background-color: white;
@@ -81,10 +80,10 @@ header {
 }
 .top-block {
     position: absolute;
-    top: 0;
+    top: 0.1vw;
     right: 0;
-    border-bottom: 22.5vw solid rgb(255,70,70);
-	border-left: 85vw solid transparent;
+    border-bottom: 22vw solid rgb(255,70,70);
+	border-left: 84vw solid transparent;
     width:1vw;
 	
 }
@@ -120,23 +119,27 @@ header {
     width:10%;
     
 }
-.headd{
-    width: 100%;
-    margin-top: 5%;
-    color: #fff;
-    text-align: center;
-    height: 10vw;
+.head{
+    position: relative;
+    height:8vw;
 }
-.headd h1 {
-    opacity: 50%;
+.head h1{
+    position: absolute;
+    top:0;
+    left: 35vw;
+    color:white;
     font-size: 5vw;
-    margin-bottom: 0ch;
-}
-.headd p{
-    font-size: 1vw;
-}
 
-.avani{
+}
+.head h2{
+    position: absolute;
+    left: 37vw;
+    top:7vw;
+    color:white;
+    font-size: 3vw;
+
+}
+.Vol1{
     position: relative;
     width:100vw;
     background-size: cover;
@@ -145,45 +148,41 @@ header {
     
     height:45vw;
 }
-.avani h1{
+.Vol1 h1{
     position: absolute;
     color:white;
-    top: 10%;
+    top: 15%;
     right: 10%;
     font-weight: normal;
     font-size:5vw;
 }
-.avani h3{
+.Vol1 h2{
     position: absolute;
     color:white;
-    top: 25%;
-    right: 18%;
+    top: 27%;
+    right: 10%;
     font-weight: normal;
-    font-size:2vw;
+    font-size:5vw;
 }
-.avani .vol {
-    left: 5%;
+.Vol1 img{
     position: absolute;
-    width: 30%;
-    height: 65%;
+    top:13%;
+    left: 2vw;
+    width:30%;
 }
-.avani img{
-    position: absolute;
-    top:8%;
-    left: 0;
-    width:40%;
-}
+
+
 .downld_bt{
     position: absolute;
-    top:80%;
-    left:18%;
-    width:3vw;
-    height:3vw;
+    top:50%;
+    right:2%;
+    width:25vw;
+    height:10vw;
 }
 .downld_bt img{
-    width:100%;
+    width:5vw;
 }
-.jwala{
+.Vol2{
     
     position: relative;
     width:100vw;
@@ -192,7 +191,7 @@ header {
     background-attachment:scroll;
     height:45vw;
 }
-.jwala h1{
+.Vol2 h1{
     position: absolute;
     color:white;
     top: 10%;
@@ -200,57 +199,46 @@ header {
     font-weight: normal;
     font-size:5vw;
 }
-.jwala h3{
+.Vol2 h2{
     position: absolute;
     color:white;
-    top:26%;
-    left: 17%;
+    top: 22%;
+    left: 8%;
     font-weight: normal;
-    font-size:2vw;
+    font-size:4vw;
 }
-.jwala .vol {
-    right: 5%;
-    position: absolute;
-    width: 30%;
-    height: 65%;
-}
-.jwala img{
+.Vol2 img{
     position: absolute;
     top:8%;
-    right: 2%;
-    width:40%;
+    right: 2vw;
+    width:30%;
 }
 
 .jw_downld_bt{
     position: absolute;
-    top:84%;
-    right:20%;
-    width:3vw;
-    height:3vw;
+    top:45%;
+    left:10%;
+    width:15vw;
+    height:10vw;
 }
 .jw_downld_bt img{
-    width:100%;
+    width:5vw;
 }
 @media screen and (max-width:1024px) and (min-width:200px){
-    
     .rep_writ{
-        
         height:190vw;
     }
     .rep_writ h1{
-        font-size:15vw;
+        font-size:13.5vw;
     }
     .bottom-block{
-        left: 0%;
         border-bottom:  70vw solid rgb(255,70,70);
-        border-left: 20vw solid transparent;
     }
     .top-block{
-        left: 20%;
-        bottom:46.3%;
-        border-left: 94.5vw solid transparent;
+        bottom:36%;
+        border-left: 85vw solid transparent;
 
-        border-bottom: 120.2vw solid rgb(255,70,70);
+        border-bottom: 110.2vw solid rgb(255,70,70);
     }
     .text-on-block{
         right:10%;
@@ -259,8 +247,7 @@ header {
         right:1%;
     }
     .text-on-block h1{
-        font-size:4vw;
-        font-style:italic;
+        font-size:5vw;
         margin-bottom:6%;
         width:100%;
     }
@@ -273,89 +260,65 @@ header {
     .soc-item img{
         width:20%;
     }
-
-    .headd{
-        width: 100%;
-        margin-top: 5%;
-        color: #fff;
-        text-align: center;
-        height: 13vw;
-    }
-    .headd h1 {
-        text-align: center;
-        opacity: 50%;
-        font-size: 8vw;
-        margin-bottom: 0ch;
-    }
-    .headd p{
-        top: 10%;
-        font-size: 3vw;
-    }
-    .avani{
-        height:160vw;
-        width: 100%;
-        align-content: center;        
-    }
-    .avani h1{
-        text-align: center;
-        width: 100%;
+    .head h1{
         font-size:10vw;
-        right: 0%;
+        left:22vw;
+    }
+    .head h2{
+        left:25vw;
+        top:13vw;
+        font-size:6vw;
+
+    }
+    .Vol1{
+        
+        height:180vw;
+
+    }
+    .Vol1 h1{
+        font-size:10vw;
         top:8%;
+        right:26vw;
     }
-    .avani h3{
-        top:16%;
-        text-align: center;
-        font-size: 4vw;
-        width: 100%;
-        right: 0%;
+    .Vol1 h2{
+        font-size: 8vw;
+        right:31vw;
+        top:15%;
     }
-    .avani img{
+    .Vol1 img{
         top:30%;
-        width:100%;
-        align-items: center;
+        width:90%;
+        left:4%;
     }
     .downld_bt{
-        
-        width: 100%;
-        top:80%;
-        left:45%;
-        width:8vw;
+        top:90%;
+        left:40%;
+        width:15vw;
     }
-    .jwala{
-        height:160vw;
+    .Vol2{
+        
+        height:190vw;
 
     }
-    .jwala h1{
-        text-align: center;
-        width: 100%;
+    .Vol2 h1{
         font-size:10vw;
-        left: 0%;
-        top:8%;
+        left:23vw;
     }
-    .jwala h3{
-        top:16%;
-        text-align: center;
-        font-size: 4vw;
-        width: 100%;
-        left: 0%;
-        }
-    .jwala img{
+    .Vol2 h2{
+        font-size: 8vw;
+        top:18%;
+        left:20vw;
+    }
+    .Vol2 img{
         top:30%;
         width:90%;
         left:3%;
     }
-    .jw_visit_pg{
-        top:75%;
-        width: 50vw;
-        height:15vw;
-        left:24%;
-    }
+    
     .jw_downld_bt{
-        width: 100%;
-        top:80%;
-        left:45%;
-        width:8vw;
+        top:89%;
+        left:40%;
+        width:15vw;
     }
     
 }
