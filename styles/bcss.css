@@ -48,7 +48,7 @@ header {
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgb(255,70,70);
     padding: 0;
     margin: 0;
     height: 7vw;
