@@ -9,7 +9,6 @@ a {
 }
 
 body {
-    background-image:url(../images/magazine/bg.jpg);
     background-size: cover;
     background-position: center top 15vh;
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    color: rgb(255,70,70);
+    background-color: rgb(255,70,70);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,8 +54,9 @@ header {
     width: 100vw;
 }
 .view{
+    margin-top: 2vw;
     position: absolute;
-    height: 40vw;
+    height: 80vh;
     top: 7vw;
     left:13vw;
 }

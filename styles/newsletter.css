@@ -174,7 +174,7 @@ header {
 
 .downld_bt{
     position: absolute;
-    top:50%;
+    top:30vw;
     right:2%;
     width:25vw;
     height:10vw;
@@ -216,13 +216,35 @@ header {
 
 .jw_downld_bt{
     position: absolute;
-    top:45%;
-    left:10%;
+    top:25vw;
+    left:11vw;
     width:15vw;
     height:10vw;
 }
 .jw_downld_bt img{
     width:5vw;
+}
+.visit_pg{
+    position: absolute;
+    top:25vw;
+    right:10vw;
+
+    width:20vw;
+    height:10vw;
+}
+.visit_pg img{
+    width:60%;
+}
+.oct_visit_pg{
+    position: absolute;
+    top:45%;
+    left:10vw;
+
+    width:20vw;
+    height:10vw;
+}
+.oct_visit_pg img{
+    width:60%;
 }
 @media screen and (max-width:1024px) and (min-width:200px){
     .rep_writ{
