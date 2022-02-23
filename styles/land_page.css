@@ -20,15 +20,15 @@ body {
 }
 
 .navbar {
+    margin-left: 0;
     display: inline;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 1.5rem;
+    padding: 0;
     color: #FF5B5B;
     
 }
-
 .nav-link {
     display: inline;
     padding: 0.5rem 1rem;
@@ -413,6 +413,9 @@ padding-right: var(--page-margin);
         width:90%;
         left:0;
     }
+    .board{
+        width:100vw;
+    }
     .text1 h1{
         top:0;
         left:10%;
@@ -519,6 +522,7 @@ padding-right: var(--page-margin);
     .yrs{
         width:88vw;
         bottom:3%;
+        padding: 0;
     }
     .yrs-menu a{
         font-size:6vw;
