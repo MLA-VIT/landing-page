@@ -113,10 +113,18 @@ header {
     background-color: rgb(253, 253, 253);
     height:40vw;
 }
+#res{
+    position:absolute;
+    bottom:2vw;
+    font-size:1.5vw;
+    right:3vw;
+    color:#d23d3d;
+    font-weight:bold;
+}
 .text2{
     position: absolute;
     height:22vw;
-    top:30%;
+    top:20%;
     font-size:3vw;
     transform: rotate(-90deg);
     left:0;
@@ -132,7 +140,7 @@ header {
 section {
     position: absolute;
     right: 0;
-    top:25%;
+    top:10%;
     width: 80%;
 display: grid;
 grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
