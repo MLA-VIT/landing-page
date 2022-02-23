@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-size: cover;
+    background-position: center top 15vh;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(200, 71, 71);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(255,70,70);
+    
+}
+
+.nav-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: rgb(255,70,70);
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #051602;
+}
+
+header {
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 100vw;;
+}
+.love{
+    margin-top:3vw;
+    position: relative;
+    height:5vw;
+}
+.love h1{
+    position: absolute;
+    left:33vw;
+    font-size: 3vw;
+    color:rgb(245, 245, 245);
+    bottom:0;
+}
+.main{
+    position: relative;
+    height:700vw;
+}
+#left{
+    position: absolute;
+    top:13vw;
+    left:2vw;
+    color:white;
+    font-size: 10vw;
+}
+#right{
+    position: absolute;
+    right:2vw;
+    color:white;
+    top:13vw;
+    font-size: 10vw;
+}
+.card {
+    display: none;
+    margin-top:3vw;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    background-color:white;
+    height:33vw;
+    left:10vw;
+    font-size: 1vw;
+    border-radius:30px;
+    
+}
+    @keyframes mymove {
+        from {left: 0px;}
+        to {left: 0px;}
+  }
+  .card h1{
+      position: absolute;
+      top: 0;
+      left:1vw;
+      font-weight: bolder;
+      font-size: 2vw;
+  }
+  .card p{
+      position: absolute;
+      left:1vw;
+      top:4vw;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1vw;
+  }
+
+  .card h4{
+      position: absolute;
+      bottom:0;
+      right: 1vw;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .cont {
+    padding: 2px 16px;
+  }
