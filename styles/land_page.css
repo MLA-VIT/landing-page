@@ -32,6 +32,7 @@ body {
 .nav-link {
     display: inline;
     padding: 0.5rem 1rem;
+    margin-left:2vw;
     color: #FF5B5B;
     transition: 0.5s;
 }
@@ -406,6 +407,9 @@ padding-right: var(--page-margin);
 
 }
 @media screen and (max-width:1024px) and (min-width:200px){
+    .container ul{
+        margin-left: -10vw;
+    }
     #malayalam {
         display: none !important;
     }
@@ -441,7 +445,7 @@ padding-right: var(--page-margin);
     
     }
     .events{
-        height:150vw;
+        height:120vw;
     }
     .text2{
         transform: rotate(0deg);
@@ -452,9 +456,13 @@ padding-right: var(--page-margin);
     }
     section {
         left: 0;
-        top:45%;
+        top:35%;
         width: 98%;
     
+    }
+    #res{
+        font-size:5vw;
+        bottom:4vw;
     }
     .tont{
         font-size:4vw;

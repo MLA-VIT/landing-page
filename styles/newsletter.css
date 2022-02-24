@@ -283,37 +283,44 @@ header {
         width:20%;
     }
     .head h1{
-        font-size:10vw;
-        left:22vw;
+        top:0;
+        font-size:12vw;
+        left:16vw;
     }
     .head h2{
         left:25vw;
-        top:13vw;
+        top:18vw;
         font-size:6vw;
 
     }
-    .Vol1{
-        
+    .Vol1{        
         height:180vw;
 
     }
     .Vol1 h1{
         font-size:10vw;
-        top:8%;
+        top:20vw;
         right:26vw;
     }
     .Vol1 h2{
         font-size: 8vw;
         right:31vw;
-        top:15%;
+        top:30vw;
     }
     .Vol1 img{
-        top:30%;
+        top:60vw;
         width:90%;
-        left:4%;
+        left:5%;
+    }
+    .visit_pg{
+        top:-10vw;
+        left:32vw;
+    }
+    .visit_pg img{
+        width:35vw;
     }
     .downld_bt{
-        top:90%;
+        top:100vw;
         left:40%;
         width:15vw;
     }
@@ -332,9 +339,16 @@ header {
         left:20vw;
     }
     .Vol2 img{
-        top:30%;
+        top:35%;
         width:90%;
-        left:3%;
+        left:5%;
+    }
+    .oct_visit_pg{
+        top:50vw;
+        left:32vw;
+    }
+    .oct_visit_pg img{
+        width:35vw;
     }
     
     .jw_downld_bt{
