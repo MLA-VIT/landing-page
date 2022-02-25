@@ -163,7 +163,7 @@ padding-right: var(--page-margin);
     position: relative;
     display: grid;
     place-content: center;
-    background-color: #d0f0ee;
+    background-color: #000000;
     color: #15928A;
     font-size: 1.5rem;
     height: 30vw;

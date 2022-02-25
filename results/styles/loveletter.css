@@ -55,14 +55,7 @@ header {
 .love {
   margin-top: 3vw;
   position: relative;
-  height: 13vw;
-}
-.love h1 {
-  position: absolute;
-  right: 0;
-  font-size: 9vw;
-  color: rgb(0, 0, 0);
-  bottom: 0;
+  margin-left:14vw;
 }
 .love-letter {
   position: relative;
@@ -122,9 +115,11 @@ header {
 .cont {
   padding: 2px 16px;
 }
-.story {
-  position: relative;
-  height: 120vw;
+.kadha{
+  margin-top:6vw;
+}
+.kadha img{
+  width: 50vw;
 }
 .stories {
   display: block;
