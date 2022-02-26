@@ -164,6 +164,16 @@ header {
     font-weight: normal;
     font-size:5vw;
 }
+.Vol1 h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:10vw;
+    left:40vw;
+    height:10vw;
+
+}
 .Vol1 img{
     position: absolute;
     top:13%;
@@ -206,6 +216,16 @@ header {
     left: 8%;
     font-weight: normal;
     font-size:4vw;
+}
+.Vol2 h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:10vw;
+    left:40vw;
+    height:10vw;
+
 }
 .Vol2 img{
     position: absolute;

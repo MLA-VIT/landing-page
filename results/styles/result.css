@@ -60,20 +60,59 @@ header {
 }
 .main h1{
     top: 0;
-    margin-top: 0;
+    margin-top: -8vw;
     position: absolute;
     font-size: 6.5vw;
     font-family: "Montserrat", sans-serif;
     font-weight:lighter;
-    left:20vw;
+    left:23vw;
 }
-#kadha{
-    position: absolute;
-    top: 25vw;
-    right: 1vw;
+.event{
+  height:30vw;
+  position: relative;
+  margin-top: 7vw;
+  margin-bottom: -10vw;
+  margin-left: 40vw;
+  
+  
 }
-#pranay{
-    position: absolute;
-    top:15vw;
-    left:1vw;
+.event img{
+  width: 20vw;
+}
+.winner{
+  position:sticky;
+  top:0;
+  margin-left:70vw;
+  margin-top: 10vw;
+  z-index:1;
+  
+}
+#win1,#win2{
+  display: none;
+}
+.image{
+  position: absolute;
+}
+.image img{
+  width:20vw;
+}
+@media screen and (max-width:1024px) and (min-width:200px){
+  .main{
+    height:200vw;
+  }
+  .main h1{
+    font-size: 11.5vw;
+    left:3vw;
+    margin-top:-30vw;
+  }
+  .event{
+    height:90vw;
+    margin-left: 16vw;
+    margin-top: 30vw;
+    margin-bottom: -40vw;
+  }
+  .event img{
+    width:70vw;
+  }
+  
 }

@@ -50,9 +50,42 @@
       </div>
     </nav>
   </div>
-  <div class="main">
-      <h1>Choose an event</h1>
-      <a id="kadha" href="stories.html"><img src="images/kadha.png"></a>
-      <a id="pranay" href="loveletter.html"><img src="images/pranayam.png"></a>
-
+  <div id="main" class="main">
+    <h1>Choose an event</h1>
+    <!-- the winner images and the events have to be given in the same order, all subsequent winner should be 
+      name as win and id of event-->
+    <div class="winner">
+      <div id="win1" class="image">
+        <img src="images/winners/premam.jpeg">
+      </div>
+      <div id="win2" class="image">
+        <img src="images/winners/kadha.jpeg">
+      </div>
+    </div>
+    <!-- Events list begins here-->
+    <div onmouseover="view(1)" onmouseout="unview(1)" id="1" class="event">
+      <a href="loveletter.html"><img src="../images/events/premalekanam.jpg"></a>
+    </div>
+    <div  onmouseover="view(2)" onmouseout="unview(2)"  id="2" class="event">      
+      <a  href="stories.html"><img src="../images/events/kadha.jpg"></a>
+    </div>
   </div>
+  <script>
+    function view(x){
+      document.getElementById("win"+x.toString()).style.display = "block";
+      const collection = document.getElementsByClassName("event");
+      for (let i = 0; i < collection.length; i++) {
+        collection[i].style.opacity = 0.2;
+}
+  
+    }
+    function unview(x){
+      document.getElementById("win"+x.toString()).style.display = "none";
+      const collection = document.getElementsByClassName("event");
+      for (let i = 0; i < collection.length; i++) {
+        collection[i].style.opacity = 1;
+    }
+  }
+  </script>
+</body>
+</html>

@@ -52,111 +52,170 @@ header {
   margin: 0;
   width: 100vw;
 }
-.kadha{
-    margin-top:6vw;
-    margin-left: 25vw;
+.kadha {
+  margin-top: 6vw;
+  margin-left: 25vw;
+}
+.kadha img {
+  width: 50vw;
+}
+.story {
+  position: relative;
+  height: 60vw;
+}
+.stories {
+  display: block;
+  background-color: black;
+  position: absolute;
+  margin-top: 4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  height: 50vw;
+  left: 10vw;
+  box-shadow: 10px 25px #93363686;
+  font-size: 1vw;
+  border-radius: 30px;
+}
+.stories h1 {
+  color: white;
+  position: absolute;
+  top: 0.5vw;
+  left: 2vw;
+  font-size: 2vw;
+}
+.stories h2 {
+  color: white;
+  position: absolute;
+  top: 3.5vw;
+  left: 2vw;
+  font-size: 1.2vw;
+}
+
+.stories p {
+  color: white;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 75vw;
+  height: 40vw;
+  left: 2vw;
+  top: 5.5vw;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3vw;
+}
+
+.stories h4 {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.3vw;
+  right: 1vw;
+}
+.arya {
+  margin-left: 0vw;
+}
+.arya h1 {
+  left: 22vw;
+}
+.arya h2 {
+  left: 35vw;
+}
+.karthik {
+  margin-left: 0;
+}
+.karthik h1 {
+  left: 30vw;
+}
+.karthik h2 {
+  left: 33vw;
+}
+.arunima h1 {
+  left: 20vw;
+}
+.arunima h2 {
+  left: 35vw;
+}
+.stories:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kadha h1 {
+  font-size: 10.5vw;
+}
+#left {
+  position: absolute;
+  top: 20vw;
+  left: 2vw;
+  color: rgb(0, 0, 0);
+  font-size: 10vw;
+}
+#right {
+  position: absolute;
+  right: 2vw;
+  color: rgb(0, 0, 0);
+  top: 22vw;
+  font-size: 10vw;
+}
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+  .kadha {
+    margin-left: 5vw;
   }
-  .kadha img{
-    width: 50vw;
+  .kadha img {
+    width: 90vw;
   }
   .story {
-    position: relative;
-    height: 60vw;
+    height: 100vw;
   }
   .stories {
-    display: block;
-    background-color:black;
-    position: absolute;
-    margin-top:4vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 80%;
-    height: 50vw;
-    left: 10vw;
-    box-shadow: 10px 25px #93363686;
-    font-size: 1vw;
-    border-radius: 30px;
+    height: 150vw;
   }
-  .stories h1{
-      color: white;
-      position: absolute;
-      top:0.5vw;
-      left:2vw;
-      font-size: 2vw;
+  .stories h1 {
+    font-size: 3vw;
   }
-  .stories h2{
-      color:white;
-      position: absolute;
-      top:3.5vw;
-      left:2vw;
-      font-size: 1.2vw;
+  .stories h2 {
+    font-size: 3.2vw;
+    top: 6vw;
   }
-  
-  
   .stories p {
-      color: white;
-    position: absolute;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 75vw;
-    height: 40vw;
-    left: 2vw;
-    top: 5.5vw;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3vw;
+    top: 10vw;
+    height: 130vw;
+    font-size: 4vw;
+    left: 3vw;
   }
-  
-  .stories h4 {
-    position: absolute;
-    bottom: 0;
-    font-size: 1.3VW;
-    right: 1vw;
+  .arya {
+    margin-left: 0vw;
   }
-  .arya{
-      margin-left: 0vw;
-      
+  .arya h1 {
+    left: 15vw;
   }
-  .arya h1{
-      left:22vw;
+  .arya h2 {
+    left: 35vw;
   }
-  .arya h2{
-      left:35vw;
+  .karthik {
+    margin-left: 0;
   }
-  .karthik{
-      margin-left: 0;
+  .karthik h1 {
+    left: 25vw;
+    font-size: 4vw;
   }
-  .karthik h1{
-      left:30vw;
+  .karthik h2 {
+    left: 30vw;
   }
-  .karthik h2{
-      left:33vw;
+  .arunima h1 {
+    left: 15vw;
   }
-  .arunima h1{
-      left:20vw;
-
+  .arunima h2 {
+    left: 32vw;
   }
-  .arunima h2{
-      left:35vw;
+  #left{
+    font-size: 18vw;
+    top:60vw;
+    left: 0;
   }
-  .stories:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  #right{
+    font-size:18vw;
+    right:0;
+    top:60vw;
   }
-
-  .kadha h1 {
-    font-size: 10.5vw;
-  }
-  #left {
-    position: absolute;
-    top: 20vw;
-    left: 2vw;
-    color: rgb(0, 0, 0);
-    font-size: 10vw;
-  }
-  #right {
-    position: absolute;
-    right: 2vw;
-    color: rgb(0, 0, 0);
-    top: 22vw;
-    font-size: 10vw;
-  }  
+}
