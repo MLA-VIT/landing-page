@@ -144,6 +144,16 @@ header {
     font-weight: normal;
     font-size:4vw;
 }
+.avani h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:5vw;
+    left:40vw;
+    height:10vw;
+
+}
 .avani img{
     position: absolute;
     top:8%;
@@ -196,6 +206,16 @@ header {
     left: 10%;
     font-weight: normal;
     font-size:4vw;
+}
+.jwala h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:5vw;
+    left:40vw;
+    height:10vw;
+
 }
 .jwala img{
     position: absolute;

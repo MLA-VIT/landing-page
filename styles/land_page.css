@@ -51,6 +51,9 @@ header {
     margin: 0;
     width: 100vw;
 }
+.container ul{
+    margin-left:-5vw;
+}
 
 .header-row {
     font-size: 125%;
@@ -114,6 +117,8 @@ header {
     background-color: rgb(253, 253, 253);
     height:40vw;
 }
+
+
 #res{
     position:absolute;
     bottom:2vw;
@@ -173,6 +178,9 @@ padding-right: var(--page-margin);
     height: 30vw;
     width: 30vw;
 }
+.event-card img:hover{
+    opacity: 0.2;
+}
 .dts{
     position: absolute;
     bottom: 0;
@@ -200,7 +208,7 @@ padding-right: var(--page-margin);
     
 }
 .tont a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .newmag{
     position: relative;
