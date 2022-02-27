@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-size: cover;
+    background-position: center top 15vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(255,70,70);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(255,70,70);
+    
+}
+
+.nav-link {
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: rgb(255,70,70);
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #051602;
+}
+
+header {
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 100vw;;
+}
+.rep_writ{
+    background-color: white;
+    position: relative;
+    height: 42vw;
+    color: rgb(255,70,70);
+}
+.rep_writ h1{
+    font-size:5vw;
+    margin: 0;
+}
+#sp {
+    color: #fff;
+    text-shadow: -1px 1px 0 rgb(255,70,70),
+                1px 1px 0 rgb(255,70,70),
+                1px -1px 0 rgb(255,70,70),
+                -1px -1px 0 rgb(255,70,70);
+}
+.bottom-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 20vw solid rgb(255,70,70);
+	border-left: 15vw solid transparent;
+	width: 84.9vw;
+}
+.top-block {
+    position: absolute;
+    top: 0.1vw;
+    right: 0;
+    border-bottom: 22vw solid rgb(255,70,70);
+	border-left: 84vw solid transparent;
+    width:1vw;
+	
+}
+.text-on-block{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    width:40vw;
+}
+.text-on-block h1{
+    margin-bottom:3%;
+    width:80%;
+    color:white;
+    font-size: 1.7vw;
+    font-weight: normal;
+    font-family: 'Montserrat';
+}
+.top-icons{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.soc{
+    margin:10px;
+    width:40vw;
+}
+.soc-item{
+    display:inline;
+    padding-right:20%;
+    margin-right: 1.3%;
+}
+.soc-item img{
+    width:10%;
+    
+}
+.head{
+    position: relative;
+    height:8vw;
+}
+.head h1{
+    position: absolute;
+    top:0;
+    left: 35vw;
+    color:white;
+    font-size: 5vw;
+
+}
+.head h2{
+    position: absolute;
+    left: 37vw;
+    top:7vw;
+    color:white;
+    font-size: 3vw;
+
+}
+.Vol1{
+    position: relative;
+    width:100vw;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment:scroll;
+    
+    height:45vw;
+}
+.Vol1 h1{
+    position: absolute;
+    color:white;
+    top: 15%;
+    right: 10%;
+    font-weight: normal;
+    font-size:5vw;
+}
+.Vol1 h2{
+    position: absolute;
+    color:white;
+    top: 27%;
+    right: 10%;
+    font-weight: normal;
+    font-size:5vw;
+}
+.Vol1 h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:10vw;
+    left:40vw;
+    height:10vw;
+
+}
+.Vol1 img{
+    position: absolute;
+    top:13%;
+    left: 2vw;
+    width:30%;
+}
+
+
+.downld_bt{
+    position: absolute;
+    top:30vw;
+    right:2%;
+    width:25vw;
+    height:10vw;
+}
+.downld_bt img{
+    width:5vw;
+}
+.Vol2{
+    
+    position: relative;
+    width:100vw;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment:scroll;
+    height:45vw;
+}
+.Vol2 h1{
+    position: absolute;
+    color:white;
+    top: 10%;
+    left: 10%;
+    font-weight: normal;
+    font-size:5vw;
+}
+.Vol2 h2{
+    position: absolute;
+    color:white;
+    top: 22%;
+    left: 8%;
+    font-weight: normal;
+    font-size:4vw;
+}
+.Vol2 h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:10vw;
+    left:40vw;
+    height:10vw;
+
+}
+.Vol2 img{
+    position: absolute;
+    top:8%;
+    right: 2vw;
+    width:30%;
+}
+
+.jw_downld_bt{
+    position: absolute;
+    top:25vw;
+    left:11vw;
+    width:15vw;
+    height:10vw;
+}
+.jw_downld_bt img{
+    width:5vw;
+}
+.visit_pg{
+    position: absolute;
+    top:25vw;
+    right:10vw;
+
+    width:20vw;
+    height:10vw;
+}
+.visit_pg img{
+    width:60%;
+}
+.oct_visit_pg{
+    position: absolute;
+    top:45%;
+    left:10vw;
+
+    width:20vw;
+    height:10vw;
+}
+.oct_visit_pg img{
+    width:60%;
+}
+@media screen and (max-width:1024px) and (min-width:200px){
+    .rep_writ{
+        height:190vw;
+    }
+    .rep_writ h1{
+        font-size:13.5vw;
+    }
+    .bottom-block{
+        border-bottom:  70vw solid rgb(255,70,70);
+    }
+    .top-block{
+        bottom:36%;
+        border-left: 85vw solid transparent;
+
+        border-bottom: 110.2vw solid rgb(255,70,70);
+    }
+    .text-on-block{
+        right:10%;
+        width:60vw;
+        bottom: 10%;
+        right:1%;
+    }
+    .text-on-block h1{
+        font-size:5vw;
+        margin-bottom:6%;
+        width:100%;
+    }
+    .soc{
+        width:60vw;
+    }
+    .soc-item{
+        padding-right: 5%;
+    }
+    .soc-item img{
+        width:20%;
+    }
+    .head h1{
+        top:0;
+        font-size:12vw;
+        left:16vw;
+    }
+    .head h2{
+        left:25vw;
+        top:18vw;
+        font-size:6vw;
+
+    }
+    .Vol1{        
+        height:180vw;
+
+    }
+    .Vol1 h1{
+        font-size:10vw;
+        top:20vw;
+        right:26vw;
+    }
+    .Vol1 h2{
+        font-size: 8vw;
+        right:31vw;
+        top:30vw;
+    }
+    .Vol1 img{
+        top:60vw;
+        width:90%;
+        left:5%;
+    }
+    .visit_pg{
+        top:-10vw;
+        left:32vw;
+    }
+    .visit_pg img{
+        width:35vw;
+    }
+    .downld_bt{
+        top:100vw;
+        left:40%;
+        width:15vw;
+    }
+    .Vol2{
+        
+        height:190vw;
+
+    }
+    .Vol2 h1{
+        font-size:10vw;
+        left:23vw;
+    }
+    .Vol2 h2{
+        font-size: 8vw;
+        top:18%;
+        left:20vw;
+    }
+    .Vol2 img{
+        top:35%;
+        width:90%;
+        left:5%;
+    }
+    .oct_visit_pg{
+        top:50vw;
+        left:32vw;
+    }
+    .oct_visit_pg img{
+        width:35vw;
+    }
+    
+    .jw_downld_bt{
+        top:89%;
+        left:40%;
+        width:15vw;
+    }
+    
+}

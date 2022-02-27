@@ -54,6 +54,9 @@ header {
     height: 7vw;
     width: 100vw;
 }
+.container a{
+    font-weight:100;
+}
 .br{
     position: relative;
     padding-top: 1vw;
@@ -113,6 +116,7 @@ header {
     .yrs{
         width:88vw;
         bottom:2%;
+        padding:0;
     }
     .yrs-menu a{
         font-size:6vw;

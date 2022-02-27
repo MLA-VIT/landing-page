@@ -9,7 +9,6 @@ a {
 }
 
 body {
-    background-image:url(../images/magazine/bg.jpg);
     background-size: cover;
     background-position: center top 15vh;
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    color: rgb(255,70,70);
+    background-color: rgb(255,70,70);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,10 +80,10 @@ header {
 }
 .top-block {
     position: absolute;
-    top: 0;
+    top: 0.1vw;
     right: 0;
-    border-bottom: 22.5vw solid rgb(255,70,70);
-	border-left: 85vw solid transparent;
+    border-bottom: 22vw solid rgb(255,70,70);
+	border-left: 84vw solid transparent;
     width:1vw;
 	
 }
@@ -133,7 +132,7 @@ header {
     position: absolute;
     color:white;
     top: 10%;
-    right: 10%;
+    right: 11vw;
     font-weight: normal;
     font-size:5vw;
 }
@@ -141,9 +140,19 @@ header {
     position: absolute;
     color:white;
     top: 22%;
-    right: 15%;
+    right: 15vw;
     font-weight: normal;
     font-size:4vw;
+}
+.avani h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:5vw;
+    left:40vw;
+    height:10vw;
+
 }
 .avani img{
     position: absolute;
@@ -197,6 +206,16 @@ header {
     left: 10%;
     font-weight: normal;
     font-size:4vw;
+}
+.jwala h3{
+    font-size:1.1vw;
+    text-align: left;
+    position: absolute;
+    width:10%;
+    top:5vw;
+    left:40vw;
+    height:10vw;
+
 }
 .jwala img{
     position: absolute;

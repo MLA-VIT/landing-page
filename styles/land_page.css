@@ -20,18 +20,19 @@ body {
 }
 
 .navbar {
+    margin-left: 0;
     display: inline;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 1.5rem;
+    padding: 0;
     color: #FF5B5B;
     
 }
-
 .nav-link {
     display: inline;
     padding: 0.5rem 1rem;
+    margin-left:2vw;
     color: #FF5B5B;
     transition: 0.5s;
 }
@@ -50,6 +51,9 @@ header {
     margin: 0;
     width: 100vw;
 }
+.container ul{
+    margin-left:-5vw;
+}
 
 .header-row {
     font-size: 125%;
@@ -66,7 +70,7 @@ header {
 }
 .about{
     position: relative;
-    background-image:url(../images/background.jpg);
+    background-color: rgb(242,66,66);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,10 +117,20 @@ header {
     background-color: rgb(253, 253, 253);
     height:40vw;
 }
+
+
+#res{
+    position:absolute;
+    bottom:2vw;
+    font-size:1.5vw;
+    right:3vw;
+    color:#d23d3d;
+    font-weight:bold;
+}
 .text2{
     position: absolute;
     height:22vw;
-    top:30%;
+    top:20%;
     font-size:3vw;
     transform: rotate(-90deg);
     left:0;
@@ -132,7 +146,7 @@ header {
 section {
     position: absolute;
     right: 0;
-    top:25%;
+    top:10%;
     width: 80%;
 display: grid;
 grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
@@ -151,19 +165,89 @@ padding-right: var(--page-margin);
 }
 
 .event-card {
+    overflow: hidden;
+    border-radius: 12px;
     position: relative;
     display: grid;
     place-content: center;
-    background-color: #d0f0ee;
+    background-color: #000000;
     color: #15928A;
     font-size: 1.5rem;
     height: 30vw;
     width: 30vw;
+    cursor: pointer;
 }
 .event-card img{
+    border-radius: 12px;
     height: 30vw;
-    width: 30vw;
+    width: 31vw;
+    scale: 1px;;
+    transition: all .9s ease;
 }
+
+.event-card:hover  img{
+    opacity: 0.5;
+    transform:scale(1.15);
+}
+.event-overlay{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.679),rgb(0, 0, 0));
+    cursor: pointer;
+
+}
+
+.event-details{
+    margin: 10px;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.eventheading{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    margin-bottom: 0;
+    font-size: 1.8vw;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.eventicon{
+    position: absolute;
+    height:1.3vw !important;
+    width:fit-content !important;
+}
+
+.event-card:hover .eventicon{
+    transform: scale(1);
+}
+ .event-details ul {
+    position: absolute; 
+    width: 100%;
+    margin:0;
+     top: 39%;
+ }
+
+ .event-details ul li p{
+     margin: 0;
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     margin-bottom: 1;
+     font-size: 1.1vw;
+     position: relative;
+     left:10%;
+ }
+ 
+
+
 .dts{
     position: absolute;
     bottom: 0;
@@ -191,11 +275,11 @@ padding-right: var(--page-margin);
     
 }
 .tont a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .newmag{
     position: relative;
-    background-image:url(../images/background.jpg);
+    background-color: rgb(242,66,66);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -293,7 +377,7 @@ padding-right: var(--page-margin);
     padding-top: 10px;
     position:absolute;
     bottom:0;
-    width:100vw;
+    width:99vw;
     height:100vw;
     background-image: linear-gradient(to bottom,#f24242 50%,#f09595);
 }
@@ -398,6 +482,9 @@ padding-right: var(--page-margin);
 
 }
 @media screen and (max-width:1024px) and (min-width:200px){
+    .container ul{
+        margin-left: -10vw;
+    }
     #malayalam {
         display: none !important;
     }
@@ -412,6 +499,9 @@ padding-right: var(--page-margin);
         height:90vw;
         width:90%;
         left:0;
+    }
+    .board{
+        width:100vw;
     }
     .text1 h1{
         top:0;
@@ -430,7 +520,7 @@ padding-right: var(--page-margin);
     
     }
     .events{
-        height:150vw;
+        height:120vw;
     }
     .text2{
         transform: rotate(0deg);
@@ -441,9 +531,16 @@ padding-right: var(--page-margin);
     }
     section {
         left: 0;
-        top:45%;
+        top:35%;
         width: 98%;
     
+    }
+    #res{
+        font-size:5vw;
+        bottom:4vw;
+    }
+    .tont{
+        font-size:4vw;
     }
     .newmag{
         height:350vw;
@@ -516,6 +613,7 @@ padding-right: var(--page-margin);
     .yrs{
         width:88vw;
         bottom:3%;
+        padding: 0;
     }
     .yrs-menu a{
         font-size:6vw;

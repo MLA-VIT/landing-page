@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta property="og:title" content="MLA-VIT" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MLA-VIT" />
+  <meta property="og:image:secure_url" itemprop="image" content="https://i.ibb.co/7YGpqxz/MLA.png" />
+  <meta property="og:url" content="https://www.mlavit.org/" />
+  <meta property="og:description"
+    content="MLA-VIT, is Malayalam Literary Association Club from VIT, Vellore, India. A group of malayali students forming a community at a home away from home." />
+  <meta property="description"
+    content="MLA-VIT, is Malayalam Literary Association Club from VIT, Vellore, India. A group of malayali students forming a community at a home away from home." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/MLA_logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles/result.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <!-- <a href="#" class="nav-logo"><img src="logo.png"></a> -->
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="../index.html#board" class="nav-link">BOARD</a>
+        </li>
+        <li class="nav-item">
+          <a href="../index.html#events" class="nav-link">EVENTS</a>
+        </li>
+        <li class="nav-item">
+          <a href="../magazine.html" class="nav-link">MAGAZINES</a>
+        </li>
+        <li class="nav-item">
+          <a href="../newsletter.html" class="nav-link">NEWSLETTERS</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </div>
+  <div id="main" class="main">
+    <h1>Choose an event</h1>
+    <!-- the winner images and the events have to be given in the same order, all subsequent winner should be 
+      name as win and id of event-->
+    <div class="winner">
+      <div id="win1" class="image">
+        <img src="images/winners/premam.jpeg">
+      </div>
+      <div id="win2" class="image">
+        <img src="images/winners/kadha.jpeg">
+      </div>
+    </div>
+    <!-- Events list begins here-->
+    <div onmouseover="view(1)" onmouseout="unview(1)" id="1" class="event">
+      <a href="loveletter.html"><img src="../images/events/premalekanam.jpg"></a>
+    </div>
+    <div  onmouseover="view(2)" onmouseout="unview(2)"  id="2" class="event">      
+      <a  href="stories.html"><img src="../images/events/kadha.jpg"></a>
+    </div>
+  </div>
+  <script>
+    function view(x){
+      document.getElementById("win"+x.toString()).style.display = "block";
+      const collection = document.getElementsByClassName("event");
+      for (let i = 0; i < collection.length; i++) {
+        collection[i].style.opacity = 0.2;
+}
+  
+    }
+    function unview(x){
+      document.getElementById("win"+x.toString()).style.display = "none";
+      const collection = document.getElementsByClassName("event");
+      for (let i = 0; i < collection.length; i++) {
+        collection[i].style.opacity = 1;
+    }
+  }
+  </script>
+</body>
+</html>
