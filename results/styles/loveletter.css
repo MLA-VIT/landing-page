@@ -97,9 +97,8 @@ header {
   left: 2vw;
   top: 1vw;
   color: white;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5vw;
+  font-family: 'Noto Sans Malayalam' sans-serif;
 }
 
 .letter h4 {

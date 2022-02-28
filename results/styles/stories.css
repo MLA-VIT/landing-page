@@ -83,6 +83,7 @@ header {
   top: 0.5vw;
   left: 2vw;
   font-size: 2vw;
+  font-family: 'Noto Sans Malayalam', sans-serif;
 }
 .stories h2 {
   color: white;
@@ -101,8 +102,7 @@ header {
   height: 40vw;
   left: 2vw;
   top: 5.5vw;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans Malayalam", sans-serif;
   font-size: 1.3vw;
 }
 

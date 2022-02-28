@@ -134,6 +134,7 @@ header {
     top: 10%;
     right: 11vw;
     font-weight: normal;
+    font-family: 'Noto Sans Malayalam';
     font-size:5vw;
 }
 .avani h2{
@@ -197,6 +198,7 @@ header {
     top: 10%;
     left: 10%;
     font-weight: normal;
+    font-family: 'Noto Sans Malayalam';
     font-size:5vw;
 }
 .jwala h2{
