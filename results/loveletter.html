@@ -50,17 +50,15 @@
       </div>
     </nav>
   </div>
+  <a href="../index.html" id="mobile-home">HOME</a>
   <div class="love-header">
     <img src="images/pranayam.png">
   </div>
-    <a id="right" onclick="next()">></a>
-    <a id="left" onclick="prev()">
-      < </a>
-        <div class="letter" id="love">
-          <h2 id="author">FACULTY</h2>
-          <p id="content">Something
-          </p>
-        </div>
+  <div class="letter" id="love">
+    <h2 id="author">FACULTY</h2>
+    <p id="content">Something
+    </p>
+  </div>
 
   </div>
   <script>
@@ -73,11 +71,11 @@
         let storyElement = document.getElementById("love");
         console.log(stories);
         if (stories.length > 0) {
-          console.log("Length greater than 0");
           storyElement.innerHTML = `
+            <a id="left" onclick="prev()"><img src="images/left-arrow.png"></a>
+            <a id="right" onclick="next()"><img src="images/right-arrow.png"></a>
             <h2 id="author">${stories[0].author}</h2>
             <p id="content">${stories[0].content}</p>`;
-          console.log(storyElement.innerHTML)
         }
       });
     function next() {
@@ -86,10 +84,7 @@
       } else {
         currentStoryIndex = 0;
       }
-      let storyElement = document.getElementById("love");
-      storyElement.innerHTML = `
-          <h2 id="author">${stories[currentStoryIndex].author}</h2>
-          <p id="content">${stories[currentStoryIndex].content}</p>`;
+      setHTMLContent(currentStoryIndex);
     }
     function prev() {
       if (currentStoryIndex > 0) {
@@ -97,10 +92,23 @@
       } else {
         currentStoryIndex = stories.length;
       }
+      setHTMLContent(currentStoryIndex);
+    }
+    function setHTMLContent(index) {
       let storyElement = document.getElementById("love");
-      storyElement.innerHTML = `
-        <h2 id="author">${stories[currentStoryIndex].author}</h2>
-        <p id="content">${stories[currentStoryIndex].content}</p>`;
+      let lovePara = document.querySelector("#love p");
+      let loveAuthor = document.querySelector("#love h2");
+      lovePara.style.opacity = '0';
+      loveAuthor.style.opacity = '0';
+      setTimeout(() => {
+        storyElement.innerHTML = `
+          <a id="left" onclick="prev()"><img src="images/left-arrow.png"></a>
+          <a id="right" onclick="next()"><img src="images/right-arrow.png"></a>
+          <h2 id="author">${stories[index].author}</h2>
+          <p id="content">${stories[index].content}</p>`;
+          lovePara.style.opacity = '1';
+          loveAuthor.style.opacity = '1';
+      }, 500);
     }
 
   </script>
