@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100;200;300;400&display=swap');
+
 li {
     list-style: none;
     display: inline;
@@ -125,16 +127,19 @@ header {
 }
 .head h1{
     position: absolute;
+    font-family: 'Noto Sans Malayalam', sans-serif;
     top:0;
-    left: 35vw;
+    width: 100%;
+    text-align: center;
     color:white;
     font-size: 5vw;
 
 }
 .head h2{
     position: absolute;
-    left: 37vw;
     top:7vw;
+    width: 100%;
+    text-align: center;
     color:white;
     font-size: 3vw;
 
@@ -165,12 +170,11 @@ header {
     font-size:5vw;
 }
 .Vol1 h3{
-    font-size:1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
     width:20%;
     color: white;
-    font-weight: 100;
     top:11vw;
     left:40vw;
     height:18vw;
@@ -219,12 +223,11 @@ header {
     font-size:4vw;
 }
 .Vol2 h3{
-    font-size:1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
     width:20%;
     color: white;
-    font-weight: 100;
     top:11vw;
     left:45vw;
     height:18vw;
@@ -261,13 +264,18 @@ header {
     position: absolute;
     top:45%;
     left:10vw;
-
     width:20vw;
     height:10vw;
 }
 .oct_visit_pg img{
     width:60%;
 }
+
+h3 {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-weight: 300;
+}
+
 @media screen and (max-width:1024px) and (min-width:200px){
     .rep_writ{
         height:190vw;
@@ -307,10 +315,8 @@ header {
     .head h1{
         top:0;
         font-size:12vw;
-        left:16vw;
     }
     .head h2{
-        left:25vw;
         top:18vw;
         font-size:6vw;
 
@@ -336,7 +342,7 @@ header {
         margin-left: 13vw;
         width:80%;
         left:0;
-
+        text-align: center;
     }
 
     .Vol1 img{
@@ -380,6 +386,7 @@ header {
         margin-left: 13vw;
         width:80%;
         left:0;
+        text-align: center;
     }
     .Vol2 img{
         top:100vw;
