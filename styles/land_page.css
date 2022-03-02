@@ -269,11 +269,11 @@ padding-right: var(--page-margin);
 .text3 p{
     position:absolute;
     left:10%;
-    font-size:1.2vw;
+    font-size:1.3vw;
     color:white;
     top:15%;
     text-align: left;
-    width:90%;
+    width:70%;
 }
 #news{
     color: #FE5858;
@@ -300,12 +300,13 @@ padding-right: var(--page-margin);
 }
 .text4 p{
     position:absolute;
-    right:10%;
-    font-size:1.1vw;
+    top:8vw;
+    right:10vw;
+    font-size:1.3vw;
     color:white;
     bottom:0;
     text-align: left;
-    width:70%;
+    width:60%;
 }
 .br{
     padding-top: 10px;
