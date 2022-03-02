@@ -148,17 +148,22 @@ header {
     font-size:4vw;
 }
 .avani h3{
-    font-size:1.1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
     width:20%;
     color: white;
-    font-weight: 100;
     top:12vw;
     left:45vw;
     height:10vw;
 
 }
+
+h3 {
+    font-family: 'Noto Sans Malayalam';
+    font-weight: 300;
+}
+
 .avani img{
     position: absolute;
     top:8%;
@@ -214,12 +219,11 @@ header {
     font-size:4vw;
 }
 .jwala h3{
-    font-size:1.1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
     width:20%;
     color: white;
-    font-weight: 100;
     top:11vw;
     left:35vw;
     height:18vw;
