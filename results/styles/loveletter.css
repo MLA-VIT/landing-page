@@ -160,6 +160,7 @@ header {
     height: 100vw;
   }
   .letter {
+    left:2vw;
     height: 150vw;
     border-radius: 10px;
   }
@@ -170,6 +171,7 @@ header {
     font-size: 5vw;
   }
   .letter p {
+    margin-left:10vw;
     height: 130vw;
     font-size: 4.5vw;
     margin-left: 10vw;;
