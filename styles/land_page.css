@@ -177,7 +177,7 @@ padding-right: var(--page-margin);
     width: 30vw;
     cursor: pointer;
 }
-.event-card img{
+.event-poster{
     border-radius: 12px;
     height: 30vw;
     width: 31vw;
@@ -185,7 +185,7 @@ padding-right: var(--page-margin);
     transition: all .9s ease;
 }
 
-.event-card:hover  img{
+.event-poster:hover{
     opacity: 0.5;
     transform:scale(1.15);
 }
@@ -222,8 +222,8 @@ padding-right: var(--page-margin);
 
 .eventicon{
     position: absolute;
-    height:1.3vw !important;
-    width:fit-content !important;
+    height:15px;
+    width:15px;
 }
 
 .event-card:hover .eventicon{
@@ -233,7 +233,8 @@ padding-right: var(--page-margin);
     position: absolute; 
     width: 100%;
     margin:0;
-     top: 39%;
+    top: 39%;
+    padding-left: 1.5vw;
  }
 
  .event-details ul li p{
@@ -243,7 +244,7 @@ padding-right: var(--page-margin);
      margin-bottom: 1;
      font-size: 1.1vw;
      position: relative;
-     left:10%;
+     left:6%;
  }
  
 
@@ -600,7 +601,7 @@ padding-right: var(--page-margin);
         height: 70vw;
         width: 70vw;
     }
-    .event-card img{
+    .event-poster{
         height: 70vw;
         width: 70vw;
     }
