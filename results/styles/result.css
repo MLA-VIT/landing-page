@@ -146,3 +146,23 @@ header {
    position: relative;
    left:6%;
 }
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+  .event-card{
+    margin-left: 15vw;
+    margin-bottom: 4vw;
+    height: 70vw;
+    width:70vw;
+  }
+  .event-poster{
+    height: 70vw;
+    width:70vw;
+
+  }
+  .event-details ul li p{
+    font-size:3.5vw;
+  }
+  .eventheading{
+    font-size:3.5vw;
+  }
+
+}
