@@ -66,7 +66,7 @@ header {
 }
 .about{
     position: relative;
-    background-image:url(../images/background.jpg);
+    background-color: rgb(242,66,66);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ padding-right: var(--page-margin);
 }
 .newmag{
     position: relative;
-    background-image:url(../images/background.jpg);
+    background-color: rgb(242,66,66);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ padding-right: var(--page-margin);
     padding-top: 10px;
     position:absolute;
     bottom:0;
-    width:100vw;
+    width:99vw;
     height:100vw;
     background-image: linear-gradient(to bottom,#f24242 50%,#f09595);
 }
@@ -444,6 +444,9 @@ padding-right: var(--page-margin);
         top:45%;
         width: 98%;
     
+    }
+    .tont{
+        font-size:4vw;
     }
     .newmag{
         height:350vw;
