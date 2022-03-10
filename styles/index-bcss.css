@@ -24,7 +24,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.3s ease;
+  transition: 0.7s ease;
   background-color: rgb(195, 68, 68);
 }
 .fa-user:hover {
@@ -41,7 +41,7 @@
   text-align: center;
 }
 .card:hover .overlay {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .socialicon img,.socialicon2 img {
     opacity:1;
@@ -76,7 +76,8 @@
 }
 
 #image:hover {
-  opacity: 0.2;
+  opacity: 0.5;
+  transform: scale(1.5);
 }
 #image:hover + .socicon {
   display: inline-block;
@@ -85,7 +86,12 @@
   display: inline;
 }
 
+.card:hover .card{
+  border: 10px #1e1e1f;
+}
+
 .card {
+  overflow: hidden;
   box-shadow: 2px 8px 12px 2px rgb(0 0 0 / 0.2);
   width: 20%;
   height: 20vw;
@@ -95,6 +101,7 @@
   position: absolute;
 }
 .img {
+  overflow: hidden;
   z-index: 0;
   position: absolute;
   margin-left: 7%;
@@ -107,8 +114,13 @@
   border-top-right-radius: 10px;
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
-  transition: all 0.6s;
+  transition: all 0.9s;
 }
+.card:hover .img{
+  transform: scale(1.5);
+}
+
+
 
 .name {
   position: absolute;

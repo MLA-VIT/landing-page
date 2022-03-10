@@ -84,7 +84,7 @@
         }
       });
     function next() {
-      if (stories.length > (currentStoryIndex + 1)) {
+      if (stories.length-1 > (currentStoryIndex)) {
         currentStoryIndex += 1;
       } else {
         currentStoryIndex = 0;
@@ -98,7 +98,7 @@
       if (currentStoryIndex > 0) {
         currentStoryIndex -= 1;
       } else {
-        currentStoryIndex = stories.length;
+        currentStoryIndex = stories.length-1;
       }
       let storyElement = document.getElementById("single-story");
       storyElement.innerHTML = `<h1 id="title">${stories[currentStoryIndex].title}</h1>

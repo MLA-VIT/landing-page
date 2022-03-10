@@ -79,19 +79,21 @@
         }
       });
     function next() {
-      if (stories.length > (currentStoryIndex + 1)) {
+      if (stories.length-1 > (currentStoryIndex)) {
         currentStoryIndex += 1;
       } else {
         currentStoryIndex = 0;
       }
+      console.log(currentStoryIndex);
       setHTMLContent(currentStoryIndex);
     }
     function prev() {
-      if (currentStoryIndex > 0) {
+      if (currentStoryIndex >0) {
         currentStoryIndex -= 1;
       } else {
-        currentStoryIndex = stories.length;
+        currentStoryIndex = stories.length-1;
       }
+      console.log(currentStoryIndex);
       setHTMLContent(currentStoryIndex);
     }
     function setHTMLContent(index) {
