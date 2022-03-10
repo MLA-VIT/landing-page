@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100;200;300;400&display=swap');
+
 li {
     list-style: none;
     display: inline;
@@ -121,20 +123,23 @@ header {
 }
 .head{
     position: relative;
-    height:8vw;
+    height:15vw;
 }
 .head h1{
     position: absolute;
+    font-family: 'Noto Sans Malayalam', sans-serif;
     top:0;
-    left: 35vw;
+    width: 100%;
+    text-align: center;
     color:white;
     font-size: 5vw;
 
 }
 .head h2{
     position: absolute;
-    left: 37vw;
     top:7vw;
+    width: 100%;
+    text-align: center;
     color:white;
     font-size: 3vw;
 
@@ -165,14 +170,14 @@ header {
     font-size:5vw;
 }
 .Vol1 h3{
-    font-size:1.1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
-    width:10%;
-    top:10vw;
+    width:20%;
+    color: white;
+    top:11vw;
     left:40vw;
-    height:10vw;
-
+    height:18vw;
 }
 .Vol1 img{
     position: absolute;
@@ -218,14 +223,14 @@ header {
     font-size:4vw;
 }
 .Vol2 h3{
-    font-size:1.1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
-    width:10%;
-    top:10vw;
-    left:40vw;
-    height:10vw;
-
+    width:20%;
+    color: white;
+    top:11vw;
+    left:45vw;
+    height:18vw;
 }
 .Vol2 img{
     position: absolute;
@@ -259,13 +264,18 @@ header {
     position: absolute;
     top:45%;
     left:10vw;
-
     width:20vw;
     height:10vw;
 }
 .oct_visit_pg img{
     width:60%;
 }
+
+h3 {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-weight: 300;
+}
+
 @media screen and (max-width:1024px) and (min-width:200px){
     .rep_writ{
         height:190vw;
@@ -285,11 +295,11 @@ header {
     .text-on-block{
         right:10%;
         width:60vw;
-        bottom: 10%;
+        bottom: 9%;
         right:1%;
     }
     .text-on-block h1{
-        font-size:5vw;
+        font-size:4.5vw;
         margin-bottom:6%;
         width:100%;
     }
@@ -305,16 +315,14 @@ header {
     .head h1{
         top:0;
         font-size:12vw;
-        left:16vw;
     }
     .head h2{
-        left:25vw;
         top:18vw;
         font-size:6vw;
 
     }
     .Vol1{        
-        height:180vw;
+        height:250vw;
 
     }
     .Vol1 h1{
@@ -327,44 +335,66 @@ header {
         right:31vw;
         top:30vw;
     }
+    .Vol1 h3{
+        font-size:4vw;
+        top:45vw;
+        height:40vw;
+        margin-left: 13vw;
+        width:80%;
+        left:0;
+        text-align: center;
+    }
+
     .Vol1 img{
-        top:60vw;
+        top:115vw;
         width:90%;
-        left:5%;
+        left:4%;
     }
     .visit_pg{
-        top:-10vw;
-        left:32vw;
+        top:100vw;
+        width: 50vw;
+        height:15vw;
+        left:30vw;
     }
     .visit_pg img{
         width:35vw;
     }
     .downld_bt{
-        top:100vw;
+        top:110vw;
         left:40%;
         width:15vw;
     }
     .Vol2{
         
-        height:190vw;
+        height:240vw;
 
     }
     .Vol2 h1{
+        top:0;
         font-size:10vw;
         left:23vw;
     }
     .Vol2 h2{
         font-size: 8vw;
-        top:18%;
+        top:10vw;
         left:20vw;
     }
+    .Vol2 h3{
+        font-size:4vw;
+        top:35vw;
+        height:40vw;
+        margin-left: 13vw;
+        width:80%;
+        left:0;
+        text-align: center;
+    }
     .Vol2 img{
-        top:35%;
+        top:100vw;
         width:90%;
         left:5%;
     }
     .oct_visit_pg{
-        top:50vw;
+        top:100vw;
         left:32vw;
     }
     .oct_visit_pg img{
@@ -372,7 +402,7 @@ header {
     }
     
     .jw_downld_bt{
-        top:89%;
+        top:110vw;
         left:40%;
         width:15vw;
     }

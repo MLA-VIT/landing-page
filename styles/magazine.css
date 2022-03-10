@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100;200;300;400&display=swap');
+
 li {
     list-style: none;
     display: inline;
@@ -89,7 +91,7 @@ header {
 }
 .text-on-block{
     position: absolute;
-    bottom: 15%;
+    bottom: 12%;
     right: 0;
     width:40vw;
 }
@@ -132,28 +134,36 @@ header {
     position: absolute;
     color:white;
     top: 10%;
-    right: 11vw;
+    right: 13vw;
     font-weight: normal;
+    font-family: 'Noto Sans Malayalam';
     font-size:5vw;
 }
 .avani h2{
     position: absolute;
     color:white;
     top: 22%;
-    right: 15vw;
-    font-weight: normal;
+    right: 16vw;
+    font-weight: 100;
     font-size:4vw;
 }
 .avani h3{
-    font-size:1.1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
-    width:10%;
-    top:5vw;
-    left:40vw;
+    width:20%;
+    color: white;
+    top:12vw;
+    left:45vw;
     height:10vw;
 
 }
+
+h3 {
+    font-family: 'Noto Sans Malayalam';
+    font-weight: 300;
+}
+
 .avani img{
     position: absolute;
     top:8%;
@@ -197,24 +207,26 @@ header {
     top: 10%;
     left: 10%;
     font-weight: normal;
+    font-family: 'Noto Sans Malayalam';
     font-size:5vw;
 }
 .jwala h2{
     position: absolute;
     color:white;
     top: 22%;
-    left: 10%;
+    left: 9%;
     font-weight: normal;
     font-size:4vw;
 }
 .jwala h3{
-    font-size:1.1vw;
+    font-size:1.2vw;
     text-align: left;
     position: absolute;
-    width:10%;
-    top:5vw;
-    left:40vw;
-    height:10vw;
+    width:20%;
+    color: white;
+    top:11vw;
+    left:35vw;
+    height:18vw;
 
 }
 .jwala img{
@@ -264,11 +276,11 @@ header {
     .text-on-block{
         right:10%;
         width:60vw;
-        bottom: 10%;
+        bottom: 8%;
         right:1%;
     }
     .text-on-block h1{
-        font-size:5vw;
+        font-size:4.3vw;
         margin-bottom:6%;
         width:100%;
     }
@@ -283,60 +295,79 @@ header {
     }
     .avani{
         
-        height:180vw;
+        height:210vw;
 
     }
     .avani h1{
         font-size:10vw;
         top:8%;
-        right:30%;
+        right:33%;
     }
     .avani h2{
         font-size: 8vw;
-        right:38%;
+        top:27vw;
+        right:39%;
+    }
+    .avani h3{
+        font-size:4vw;
+        top:45vw;
+        height:40vw;
+        margin-left: 13vw;
+        width:80%;
+        left:0;
     }
     .avani img{
-        top:30%;
+        top:100vw;
         width:90%;
         left:4%;
     }
     .visit_pg{
-        top:75%;
+        top:75vw;
         width: 50vw;
         height:15vw;
         left:24%;
     }
     .downld_bt{
-        top:85%;
+        top:90vw;
         left:40%;
         width:15vw;
     }
     .jwala{
         
-        height:180vw;
+        height:230vw;
 
     }
     .jwala h1{
+        top:0;
         font-size:10vw;
-        left:35%;
+        left:33vw;
     }
     .jwala h2{
         font-size: 8vw;
-        left:35%;
+        top:13vw;
+        left:32vw;
+    }
+    .jwala h3{
+        font-size:4vw;
+        top:35vw;
+        height:40vw;
+        margin-left: 13vw;
+        width:80%;
+        left:0;
     }
     .jwala img{
-        top:30%;
+        top:100vw;
         width:90%;
-        left:3%;
+        left:4%;
     }
     .jw_visit_pg{
-        top:75%;
+        top:75vw;
         width: 50vw;
         height:15vw;
         left:24%;
     }
     .jw_downld_bt{
-        top:85%;
+        top:90vw;
         left:40%;
         width:15vw;
     }
