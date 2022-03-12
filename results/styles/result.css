@@ -52,67 +52,117 @@ header {
   margin: 0;
   width: 100vw;
 }
-.main{
-    position: relative;
-}
-.main img{
-    width: 50vw;
-}
-.main h1{
-    top: 0;
-    margin-top: -8vw;
-    position: absolute;
-    font-size: 6.5vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight:lighter;
-    left:23vw;
-}
 .event{
-  height:30vw;
-  position: relative;
-  margin-top: 7vw;
-  margin-bottom: -10vw;
-  margin-left: 40vw;
-  
-  
+  width:20vw;
+  margin-top: 3vw;
+  margin-left: 4vw;
+  float: left;
 }
 .event img{
-  width: 20vw;
+  width: 100%;
 }
-.winner{
-  position:sticky;
-  top:0;
-  margin-left:70vw;
-  margin-top: 10vw;
-  z-index:1;
-  
+.event-card {
+  margin-left: 6vw;
+  margin-top: 4vw;
+  float: left;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+  display: grid;
+  place-content: center;
+  background-color: #000000;
+  color: #15928A;
+  font-size: 1.5rem;
+  height: 25vw;
+  width: 25vw;
+  cursor: pointer;
 }
-#win1,#win2{
-  display: none;
+.event-poster{
+  border-radius: 12px;
+  height: 25vw;
+  width: 25vw;
+  scale: 1px;;
+  transition: all .9s ease;
 }
-.image{
+
+.event-poster:hover{
+  opacity: 0.5;
+  transform:scale(1.15);
+}
+.event-overlay{
   position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.679),rgb(0, 0, 0));
+  cursor: pointer;
+
 }
-.image img{
-  width:20vw;
+
+.event-details{
+  margin: 10px;
+  position:absolute;
+  width: 100%;
+  height: 100%;
 }
-@media screen and (max-width:1024px) and (min-width:200px){
-  .main{
-    height:200vw;
-  }
-  .main h1{
-    font-size: 11.5vw;
-    left:3vw;
-    margin-top:-30vw;
-  }
-  .event{
-    height:90vw;
-    margin-left: 16vw;
-    margin-top: 30vw;
-    margin-bottom: -40vw;
-  }
-  .event img{
+
+.eventheading{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  margin-bottom: 0;
+  font-size: 1.8vw;
+  color: white;
+  font-family:'Montserrat', sans-serif ;
+}
+
+.eventicon{
+  position: absolute;
+  height:15px;
+  width:15px;
+}
+
+.event-card:hover .eventicon{
+  transform: scale(1);
+}
+.event-details ul {
+  position: absolute; 
+  width: 100%;
+  margin:0;
+  top: 39%;
+  padding-left: 1.5vw;
+}
+
+.event-details ul li p{
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   margin-bottom: 1;
+   font-size: 1.1vw;
+   position: relative;
+   left:6%;
+}
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+  .event-card{
+    margin-left: 15vw;
+    margin-bottom: 4vw;
+    height: 70vw;
     width:70vw;
   }
-  
+  .event-poster{
+    height: 70vw;
+    width:70vw;
+
+  }
+  .event-details ul li p{
+    font-size:3.5vw;
+  }
+  .eventheading{
+    font-size:3.5vw;
+  }
+
 }
