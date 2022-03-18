@@ -213,7 +213,7 @@ header {
     
     @media screen and (max-width:1024px) and (min-width:200px){
         .name {
-            font-size:3.5vw;
+            font-size:3.8vw;
         }
     }
 
@@ -224,7 +224,7 @@ header {
     letter-spacing:0.35vw;
     position: absolute;
     margin-left:14%;
-    margin-top:86%;
+    margin-top:88%;
     }
 
     @media screen and (max-width:1024px) and (min-width:200px){

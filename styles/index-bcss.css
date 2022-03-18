@@ -163,7 +163,7 @@
 .name2pos {
   margin-left: 8.5%;
   position: absolute;
-  bottom: 3.6vw;
+  bottom: 2.9vw;
 }
 
 .position2pos {
@@ -327,7 +327,7 @@
     height: 51vw;
   }
   .name {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
   .icon a {
     top: 15vw;
@@ -406,12 +406,13 @@
     bottom: 12vw;
   }
   .name8pos2 {
-    bottom: 9vw;
+    bottom: 8vw;
   }
   .name9pos {
     bottom: 8vw;
   }
   .name10pos {
     bottom: 8vw;
+    left:0.8vw;
   }
 }
