@@ -624,7 +624,6 @@ padding-right: var(--page-margin);
         top:0;
     }
     .event-details ul li p{
-        left: 0;
         font-size:2.5vw;
 
     }
