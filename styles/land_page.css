@@ -620,9 +620,11 @@ padding-right: var(--page-margin);
     }
     .eventheading{
         font-size:4.5vw;
+        left:1%;
         top:0;
     }
     .event-details ul li p{
+        left: 0;
         font-size:2.5vw;
 
     }
