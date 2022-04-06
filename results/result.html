@@ -58,35 +58,6 @@
     <img class="modal-content" id="img01">
     <div id="caption"></div>
   </div>
-
-  <div id="myModal2" class="modal" onclick="pop2()">
-    <span class="close" onclick="closeModal()" >&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
-
-  <div id="myModal3" class="modal" onclick="pop3()">
-    <span class="close" onclick="closeModal()" >&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
-
-  <div id="myModal4" class="modal" onclick="pop4()">
-    <span class="close" onclick="closeModal()" >&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
-  <div id="myModal5" class="modal" onclick="pop5()">
-    <span class="close" onclick="closeModal()" >&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
-
-  <div id="myModal6" class="modal" onclick="pop6()">
-    <span class="close" onclick="closeModal()" >&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
   
   <div class="event-card">
     <a href="loveletter.html"><img class="event-poster" src="../images/events/premalekanam.jpg" /></a>
@@ -108,7 +79,7 @@
                 </li>
             </ul>  
         </div>
-        <div id="pp1" class="tont">
+        <div id="pp1" class="tont" onclick="pop1()">
             <a id="prepop" href="#">Winners -></a>
         </div>
   </div>
@@ -133,7 +104,7 @@
                 </li>
             </ul>  
         </div>
-        <div id="pp2" class="tont">
+        <div id="pp2" class="tont" onclick="pop2()">
             <a href="#">Winners -></a>
         </div>
   </div>
@@ -159,7 +130,7 @@
                 </li>
             </ul>  
         </div>
-        <div id="pp3" class="tont">
+        <div id="pp3" class="tont" onclick="pop3()">
             <a href="#">Winners -></a>
         </div>
         
@@ -187,7 +158,7 @@
           </li>
       </ul>  
   </div>
-  <div id="pp4" class="tont">
+  <div id="pp4" class="tont" onclick="pop4()">
     <a href="#">Winners -></a>
 </div>
       
@@ -215,7 +186,7 @@
               </li>
           </ul>  
       </div>
-      <div id="pp5" class="tont">
+      <div id="pp5" class="tont" onclick="pop5()">
         <a href="#">Winners -></a>
     </div>
       
@@ -243,7 +214,7 @@
               </li>
           </ul>  
       </div>
-      <div id="pp6" class="tont">
+      <div id="pp6" class="tont" onclick="pop6()">
         <a href="#">Winners -></a>
     </div>
       
@@ -255,15 +226,40 @@
     // Get the modal
     var modal = document.getElementById("myModal");
     
+    
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById("prepopp");
+    var img = document.getElementById("pp1");
+    var img = document.getElementById("pp2");
+    var img = document.getElementById("pp3");
+    var img = document.getElementById("pp4");
+    var img = document.getElementById("pp5");
+    var img = document.getElementById("pp6");
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
-    document.getElementById("prepopp").addEventListener("click", pop1);
     function pop1(){
       modal.style.display = "block";
       modalImg.src = '../images/events/aaru.jpg';
     }
+    function pop2(){
+        modal.style.display = "block";
+        modalImg.src = '../images/events/amma.jpg';
+      }
+      function pop3(){
+        modal.style.display = "block";
+        modalImg.src = '../images/events/aaru.jpg';
+      }
+      function pop4(){
+        modal.style.display = "block";
+        modalImg.src = '../images/events/aaru.jpg';
+      }
+      function pop5(){
+        modal.style.display = "block";
+        modalImg.src = '../images/events/aaru.jpg';
+      }
+      function pop6(){
+        modal.style.display = "block";
+        modalImg.src = '../images/events/aaru.jpg';
+      }
     
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
