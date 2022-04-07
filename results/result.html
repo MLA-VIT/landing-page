@@ -58,6 +58,32 @@
     <img class="modal-content" id="img01">
     <div id="caption"></div>
   </div>
+
+  <div class="event-card">
+    <a href="stories.html"><img class="event-poster" src="../images/events/aval.jpeg" /></a>
+    <div class="event-overlay">
+        <div class="event-details">
+            <h4 class="eventheading"> Aval</h4>
+            <ul>
+                <li>
+                    <img class="eventicon" src="../images/calender-icon.png"/>
+                    <p>07th March,2022</p>
+                </li>
+                <li>
+                    <img class="eventicon" src="../images/time-icon.png"/>
+                    <p>08:00 PM</p>
+                </li>
+                <li>
+                    <img class="eventicon" src="../images/platform-icon.png"/>
+                    <p>G-forms</p>
+                </li>
+            </ul>  
+        </div>
+        <div id="pp2" class="tont" onclick="pop_aval()">
+            <a href="#">Winners -></a>
+        </div>
+  </div>
+  </div>
   
   <div class="event-card">
     <a href="loveletter.html"><img class="event-poster" src="../images/events/premalekanam.jpg" /></a>
@@ -195,6 +221,32 @@
 </div>
 
 <div class="event-card">
+  <a href="loveletter.html"><img class="event-poster" src="../images/events/sadhnm.jpeg" /></a>
+  <div class="event-overlay">
+      <div class="event-details">
+          <h4 class="eventheading"> Sadhanam Kayyilundo 2.0</h4>
+          <ul>
+              <li>
+                  <img class="eventicon" src="../images/calender-icon.png"/>
+                  <p>08th February,2022</p>
+              </li>
+              <li>
+                  <img class="eventicon" src="../images/time-icon.png"/>
+                  <p>07:00 PM</p>
+              </li>
+              <li>
+                  <img class="eventicon" src="../images/platform-icon.png"/>
+                  <p>MS Teams</p>
+              </li>
+          </ul>  
+      </div>
+      <div id="pp1" class="tont" onclick="pop_sadhnm()">
+          <a id="prepop" href="#">Winners -></a>
+      </div>
+</div>
+</div>
+
+<div class="event-card">
   <img class="event-poster" src="../images/events/athi.jpg" />
   <div class="event-overlay">
       <div class="event-details">
@@ -260,7 +312,14 @@
         modal.style.display = "block";
         modalImg.src = '../images/events/athi.jpg';
       }
-    
+      function pop_aval(){
+        modal.style.display = "block";
+        modalImg.src = '../images/results/aval.png';
+      }
+      function pop_sadhnm(){
+        modal.style.display = "block";
+        modalImg.src = '../images/results/sadhnm.png';
+      }
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
     
