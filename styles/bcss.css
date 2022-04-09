@@ -103,6 +103,9 @@ header {
 }
 
 @media screen and (max-width:1024px) and (min-width:200px){
+    .container ul{
+        margin-left: -10vw;
+    }
     .container{
         height: 30vw;
     }
