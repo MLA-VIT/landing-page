@@ -117,14 +117,14 @@
   transition: all 0.9s;
 }
 .card:hover .img{
-  transform: scale(1.5);
+  transform: scale(1.7);
 }
 
 
 
 .name {
   position: absolute;
-  margin-left: 15%;
+  margin-left: 17.5%;
   margin-top: 56%;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -163,7 +163,7 @@
 .name2pos {
   margin-left: 8.5%;
   position: absolute;
-  bottom: 3.6vw;
+  bottom: 2.9vw;
 }
 
 .position2pos {
@@ -323,95 +323,125 @@
     margin-top: 20%;
   }
   .card {
-    width: 50%;
-    height: 51vw;
+    width: 65vw;
+    height: 60vw;
+  }
+  #image {
+    width: 70vw;
+    height:60vw;
   }
   .name {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
+  }
+  .icon{
+    top: 30vw;
   }
   .icon a {
-    top: 15vw;
+    top: 5vw;
     height: 50vw;
   }
   .socialicon img,
   .socialicon2 img {
-    width: 5vw;
+    width: 10vw;
   }
   .position {
     letter-spacing: 0.8vw;
+    left :7vw;
     font-size: 3.3vw;
   }
   .card1pos {
     margin-top: 35%;
-    margin-left: 25%;
+    margin-left: 17.5%;
   }
   .card2pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 100%;
   }
   .card3pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 165%;
   }
   .card4pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 230%;
   }
   .card5pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 295%;
   }
   .card6pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 360%;
   }
   .card7pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 425%;
   }
   .card8pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 490%;
   }
   .card9pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 555%;
   }
   .card10pos {
-    margin-left: 25%;
+    margin-left: 17.5%;
     margin-top: 620%;
   }
   .name1pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left: 6vw;
   }
   .name2pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
   }
   .name3pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
+
   }
   .name4pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
+
   }
   .name5pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
+
   }
   .name6pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
+
   }
   .name7pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
+
   }
   .name8pos {
-    bottom: 12vw;
+    bottom: 9vw;
+    left:11vw;
+
   }
   .name8pos2 {
-    bottom: 9vw;
+    bottom: 5.5vw;
+    left:12vw;
+
   }
   .name9pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:6vw;
+
   }
   .name10pos {
-    bottom: 8vw;
+    bottom: 5.5vw;
+    left:7.5vw;
+  }
+  .position10pos{
+    left:7.5vw;
   }
 }

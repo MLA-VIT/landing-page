@@ -258,6 +258,9 @@ h3 {
     width:15%;
 }
 @media screen and (max-width:1024px) and (min-width:200px){
+    .container ul{
+        margin-left: -10vw;
+    }
     .rep_writ{
         height:190vw;
     }
