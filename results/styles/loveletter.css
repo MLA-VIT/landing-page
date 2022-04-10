@@ -153,9 +153,6 @@ header {
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 200px) {
-  .love-header {
-    margin-left: 5vw;
-  }
   .love-header img {
     width: 90vw;
   }
@@ -163,8 +160,7 @@ header {
     height: 100vw;
   }
   .letter {
-    left:2vw;
-    height: 150vw;
+    height: 69vh;
     border-radius: 10px;
   }
   .letter h1 {
@@ -175,7 +171,7 @@ header {
   }
   .letter p {
     margin-left:10vw;
-    height: 130vw;
+    height: 60vh;
     font-size: 4.5vw;
   }
   #left{
