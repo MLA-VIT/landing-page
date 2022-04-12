@@ -336,19 +336,19 @@ h3 {
         top:30vw;
     }
     .Vol1 h3{
-        font-size:4vw;
+        font-size:4.2vw;
         top:45vw;
         height:40vw;
         margin-left: 13vw;
         width:80%;
         left:0;
-        text-align: center;
+        text-align: left;
     }
 
     .Vol1 img{
         top:115vw;
         width:90%;
-        left:4%;
+        left:5%;
     }
     .visit_pg{
         top:100vw;
@@ -361,7 +361,7 @@ h3 {
     }
     .downld_bt{
         top:110vw;
-        left:40%;
+        left:42%;
         width:15vw;
     }
     .Vol2{
@@ -380,13 +380,13 @@ h3 {
         left:20vw;
     }
     .Vol2 h3{
-        font-size:4vw;
+        font-size:4.2vw;
         top:35vw;
         height:40vw;
         margin-left: 13vw;
         width:80%;
         left:0;
-        text-align: center;
+        text-align: left;
     }
     .Vol2 img{
         top:100vw;
@@ -403,7 +403,7 @@ h3 {
     
     .jw_downld_bt{
         top:110vw;
-        left:40%;
+        left:43%;
         width:15vw;
     }
     
