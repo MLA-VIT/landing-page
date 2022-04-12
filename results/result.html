@@ -68,6 +68,32 @@
   </div>
 
   <div class="event-card">
+    <img class="event-poster" src="../images/events/15 MEOW 4.jpg" />
+    <div class="event-overlay">
+        <div class="event-details">
+            <h4 class="eventheading"> Meow</h4>
+            <ul>
+                <li>
+                    <img class="eventicon" src="../images/calender-icon.png"/>
+                    <p>12th April,2022</p>
+                </li>
+                <li>
+                    <img class="eventicon" src="../images/time-icon.png"/>
+                    <p>10:00 AM</p>
+                </li>
+                <li>
+                    <img class="eventicon" src="../images/platform-icon.png"/>
+                    <p>G-forms</p>
+                </li>
+            </ul>  
+        </div>
+        <div id="pp2" class="tont" onclick="pop_15()">
+            <a href="#">Details -></a>
+        </div>
+  </div>
+  </div>
+
+  <div class="event-card">
     <img class="event-poster" src="../images/events/14 Avalokanam 11.png" />
     <div class="event-overlay">
         <div class="event-details">
@@ -523,7 +549,13 @@
       function pop_14(){
         modal.style.display = "block";
         modalImg.src = '../images/events/14 Avalokanam 11.png';
-        p.textContent = ""
+        p.textContent = "Avalokanam-Session 11, This is the 11th session that focused on bringing out the essence of famous Malayalam Literary works. Literature review along with an explanation of literary devices and contextual summary had been presented by the students based on the selected novels and movies."
+      }
+
+      function pop_15(){
+        modal.style.display = "block";
+        modalImg.src = '../images/events/15 MEOW 4.jpg';
+        p.textContent = "MLA brings you another event myavu In relation to pets day.This is a selfie contest in which participants have to take a selfie with their pets with suitable caption"
       }
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
