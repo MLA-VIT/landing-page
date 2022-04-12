@@ -496,6 +496,9 @@ padding-right: var(--page-margin);
 }
 
 @media screen and (max-width:1024px) and (min-width:200px){
+    .header-content h1{
+        position:fixed;
+    }
     .container ul{
         margin-left: -10vw;
     }
