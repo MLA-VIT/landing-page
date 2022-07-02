@@ -255,7 +255,9 @@ padding-right: var(--page-margin);
  }
  
 
-
+#vayana{
+    top: -1vw;
+}
 .dts{
     position: absolute;
     bottom: 0;
@@ -629,6 +631,9 @@ padding-right: var(--page-margin);
     .event-details ul li p{
         font-size:2.5vw;
 
+    }
+    #vayana{
+        top: -4vw;
     }
     .br{
         height:740vw;
