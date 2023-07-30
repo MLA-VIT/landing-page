@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100;200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
+
 @media (max-width: 576px) {
     body {
       display: none;
@@ -88,6 +89,12 @@ header {
     
     
 }
+
+#malayalam {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+}
 /* .bor{
     border: 2px solid #010b09;
    
@@ -97,17 +104,25 @@ header {
 } */
 
 
-
-
-
-
-
-
-.sg-heading{
-    color: #ffffff;
+#literary {
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: -1px 1px 0 #FF5B5B,
+                1px 1px 0 #FF5B5B,
+                1px -1px 0 #FF5B5B,
+                -1px -1px 0 #FF5B5B;
 }
 
-
+.sg-heading{
+    color: #FF5B5B;
+    letter-spacing: 3px;
+    text-shadow: -1px 1px 0 #fff,
+                1px 1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+    text-transform: uppercase;
+    font-size: 35px;
+}
 
 .styled-table {
     
@@ -116,7 +131,6 @@ header {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 2em;
-    font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     
@@ -132,7 +146,7 @@ header {
 }
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
-    font-weight: bold;
+    font-weight:bold;
     color: #020202;
 }
 
@@ -144,7 +158,6 @@ header {
     border-bottom: 1px solid #010b09;
 }
 .styled-table tbody tr.active-row {
-    font-weight: bold;
     color: #000000;
 }
  
