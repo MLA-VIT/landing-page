@@ -69,7 +69,7 @@ header {
 
 .yrs {
     position: absolute;
-    bottom: 0;
+    bottom: -25%;
     display: inline;
     justify-content: space-between;
     align-items: center;
@@ -78,6 +78,7 @@ header {
     width: 90vw;
     height: 5vw;
     color: #ececec;
+
 }
 
 .yrs-link {
@@ -116,6 +117,7 @@ header {
 
     .container {
         height: 30vw;
+        padding-left: 20px;
     }
 
     .firstyear {
@@ -129,7 +131,7 @@ header {
 
     .yrs {
         width: 88vw;
-        bottom: 2%;
+        bottom: -12%;
         padding: 0;
     }
 
@@ -138,25 +140,23 @@ header {
     }
 }
 
+
 .secrect {
     width: 95%;
-    height: 82vw;
+    height: 110vw;
     background: #c34444;
     position: absolute;
     margin-top: 7.5%;
     margin-left: 2.5%;
 }
 
-.secrect2017 {
-    height: 105vw;
-}
 
 @media screen and (max-width:1024px) and (min-width:200px) {
     .secrect {
         width: 90%;
-        height: 665vw;
+        height: 770vw;
         margin-top: 19%;
-        margin-left: 4.7%;
+        margin-left: 6%;
     }
 
     .secrect2019 {
@@ -167,6 +167,7 @@ header {
         height: 790vw;
     }
 }
+
 
 .secyear {
     font-family: 'Montserrat', sans-serif;
@@ -193,20 +194,27 @@ header {
 
 .card {
     box-shadow: 2px 8px 12px 2px rgb(0 0 0 / 0.2);
-    width: 20%;
+    width: 70%;
     height: 20vw;
     border-radius: 10px;
     background: #c34444;
     word-wrap: break-word;
-    position: absolute;
+
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card {
-        width: 50%;
-        height: 51vw;
-    }
+.card9pos {
+    margin-left: 50%;
 }
+
+.card10pos {
+    margin-left: 50%;
+}
+
+
+
 
 .img {
     position: absolute;
@@ -230,20 +238,38 @@ header {
     font-weight: 700;
 }
 
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .name {
-        font-size: 3.8vw;
-    }
-}
+
 
 .position {
     font-family: 'Montserrat', sans-serif;
     color: #1e1e1f;
     font-size: 1.3vw;
-    letter-spacing: 0.35vw;
+    letter-spacing: 0.20vw;
     position: absolute;
     margin-left: 14%;
-    margin-top: 88%;
+    margin-top: 82%;
+}
+
+
+.everyone {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+@media screen and (max-width:1024px) and (min-width:200px) {
+    .card {
+        width: 50%;
+        height: 51vw;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:200px) {
+    .name {
+        font-size: 3.8vw;
+    }
 }
 
 @media screen and (max-width:1024px) and (min-width:200px) {
@@ -253,249 +279,34 @@ header {
     }
 }
 
-.card1pos {
-    margin-left: 23%;
-    margin-top: 15%;
-}
-
 @media screen and (max-width:1024px) and (min-width:200px) {
-    .card1pos {
-        margin-top: 35%;
-        margin-left: 25%;
+
+
+
+
+    .everyone {
+        width: 100%;
+        display: block;
+
+        margin-bottom: 20px;
+        padding-left: 20%;
+        margin: 0%;
     }
-}
 
-.card2pos {
-    margin-left: 56%;
-    margin-top: 15%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card2pos {
-        margin-left: 25%;
-        margin-top: 100%;
-    }
-}
-
-.name2pos {
-    margin-left: 8.5%;
-}
-
-.position2pos {
-    margin-left: 2%;
-}
-
-.card3pos {
-    margin-left: 3%;
-    margin-top: 40%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card3pos {
-        margin-left: 25%;
-        margin-top: 165%;
-    }
-}
-
-.name3pos {
-    margin-left: 8.5%;
-}
-
-.position3pos {
-    margin-left: 20.5%;
-}
-
-.card4pos {
-    margin-left: 27.5%;
-    margin-top: 40%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card4pos {
-        margin-left: 25%;
-        margin-top: 230%;
-    }
-}
-
-.name4pos {
-    margin-left: 23%;
-}
-
-.card5pos {
-    margin-left: 52.5%;
-    margin-top: 40%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card5pos {
-        margin-left: 25%;
-        margin-top: 295%;
-    }
-}
-
-.name5pos {
-    margin-left: 23%;
-}
-
-.position5pos {
-    margin-left: 8%;
-}
-
-.card6pos {
-    margin-left: 77%;
-    margin-top: 40%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card6pos {
-        margin-left: 25%;
-        margin-top: 360%;
-    }
-}
-
-.name6pos {
-    margin-left: 23%;
-}
-
-.position6pos {
-    margin-left: 8%;
-}
-
-.card7pos {
-    margin-left: 3%;
-    margin-top: 65%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card7pos {
-        margin-left: 25%;
-        margin-top: 425%;
-    }
-}
-
-.name7pos {
-    margin-left: 26%;
-}
-
-.position7pos {
-    margin-left: 8%;
-}
-
-.card8pos {
-    margin-left: 27.5%;
-    margin-top: 65%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
-    .card8pos {
-        margin-left: 25%;
-        margin-top: 490%;
-    }
-}
-
-.name8pos {
-    margin-top: 65%;
-    margin-left: 10%;
-}
-
-.name8pos2 {
-    margin-left: 10%;
-}
-
-.position8pos {
-    margin-left: 6%;
-}
-
-.card9pos {
-    margin-left: 52.5%;
-    margin-top: 65%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
     .card9pos {
-        margin-left: 25%;
-        margin-top: 555%;
+        margin-left: 20px;
     }
-}
 
-.card10pos {
-    margin-left: 77%;
-    margin-top: 65%;
-}
-
-@media screen and (max-width:1024px) and (min-width:200px) {
     .card10pos {
-        margin-left: 25%;
-        margin-top: 620%;
+        margin-left: 20px;
     }
 
-    .card11pos2017 {
-        margin-left: 25%;
-        margin-top: 685%;
-    }
-
-    .card12pos2017 {
-        margin-left: 25%;
-        margin-top: 750%;
-    }
-}
-
-.name10pos {
-    margin-left: 10%;
-}
-
-.position10pos {
-    margin-left: 12%;
-}
-
-@media screen and (max-width: 2560px) and (min-width:1024px) {
-
-    .card1pos2019 {
+    .name2pos {
         margin-left: 10%;
     }
 
-    .card2pos2019 {
-        margin-left: 40%;
-    }
-
-    .card3pos2019 {
-        margin-left: 70%;
-        margin-top: 15%;
-    }
-
-    .card4pos2019 {
-        margin-left: 10%;
-    }
-
-    .card5pos2019 {
-        margin-left: 40%;
-    }
-
-    .card6pos2019 {
-        margin-left: 70%;
-    }
-
-    .card7pos2019 {
-        margin-left: 10%;
+    .name10pos {
         margin-top: 65%;
-    }
 
-    .card8pos2019 {
-        margin-left: 40%;
     }
-
-    .card9pos2019 {
-        margin-left: 70%;
-    }
-
-    .card11pos2017 {
-        margin-left: 23%;
-        margin-top: 90%;
-    }
-
-    .card12pos2017 {
-        margin-left: 56%;
-        margin-top: 90%;
-    }
-
 }
