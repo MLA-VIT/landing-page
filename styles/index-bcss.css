@@ -1,6 +1,8 @@
 .br {
   width: 90vw;
 }
+
+
 .firstyear {
   font-family: "Montserrat", sans-serif;
   font-weight: 1000;
@@ -21,17 +23,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff; 
+  background: #ffffff;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FF5B5B; 
+  background: #FF5B5B;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff; 
+  background: #ffffff;
 }
 
 
@@ -49,32 +51,40 @@
   transition: 0.7s ease;
   background-color: rgb(195, 68, 68);
 }
+
 .fa-user:hover {
   color: #eee;
 }
+
 .icon {
   color: white;
   position: absolute;
-  height:10vw;
+  height: 10vw;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .card:hover .overlay {
   opacity: 0.8;
 }
-.socialicon img,.socialicon2 img {
-    opacity:1;
+
+.socialicon img,
+.socialicon2 img {
+  opacity: 1;
   width: 3vw;
 }
-.socialicon,.socialicon2{
+
+.socialicon,
+.socialicon2 {
   height: 3vw;
 }
+
 .secrect {
   width: 95%;
-  height: 82vw;
+  height: 105vw;
   background: #c34444;
   position: absolute;
   margin-top: 7.5%;
@@ -101,14 +111,16 @@
   opacity: 0.5;
   transform: scale(1.5);
 }
-#image:hover + .socicon {
+
+#image:hover+.socicon {
   display: inline-block;
 }
+
 .socicon:hover {
   display: inline;
 }
 
-.card:hover .card{
+.card:hover .card {
   border: 10px #1e1e1f;
 }
 
@@ -122,6 +134,7 @@
   word-wrap: break-word;
   position: absolute;
 }
+
 .img {
   overflow: hidden;
   z-index: 0;
@@ -138,7 +151,8 @@
   -o-transition: all 0.6s;
   transition: all 0.9s;
 }
-.card:hover .img{
+
+.card:hover .img {
   transform: scale(1.7);
 }
 
@@ -168,15 +182,17 @@
   margin-left: 10%;
   margin-top: 15%;
 }
+
 .name1pos {
   position: absolute;
   bottom: 2.9vw;
-  left: 1%;
+  left: 0%;
 }
+
 .position1pos {
   position: absolute;
   bottom: 0;
-  left: 10%;
+  left: 0%;
 }
 
 .card2pos {
@@ -187,13 +203,14 @@
 .name2pos {
   position: absolute;
   bottom: 2.9vw;
-  left: -8%;
+  left: -5%;
 }
 
 .position2pos {
   position: absolute;
   bottom: 0;
-  left: -5%;
+  left: -10%;
+  font-size: 18px;
 }
 
 .card3pos {
@@ -204,13 +221,14 @@
 .name3pos {
   position: absolute;
   bottom: 2.9vw;
-  left: 8%;
+  left: 0%;
 }
 
 .position3pos {
   position: absolute;
   bottom: 0;
-  left: -12%;
+  left: -5%;
+
 }
 
 .card4pos {
@@ -221,8 +239,9 @@
 .name4pos {
   position: absolute;
   bottom: 2.9vw;
-  left: -6%;
+  left: 8%;
 }
+
 .position4pos {
   position: absolute;
   bottom: 0;
@@ -237,6 +256,7 @@
 .name5pos {
   position: absolute;
   bottom: 2.9vw;
+  left: -5%;
 }
 
 .position5pos {
@@ -253,7 +273,8 @@
 .name6pos {
   position: absolute;
   bottom: 2.9vw;
-  left: -2%;
+  left: -10.5%;
+  font-size: 18px;
 }
 
 .position6pos {
@@ -286,30 +307,33 @@
   margin-left: 10%;
   position: absolute;
   bottom: 2.9vw;
-  left: -3.5%;
+  left: 5%;
 }
 
 
 .position8pos {
   position: absolute;
   bottom: 0;
-  left: -7%;
+  left: 2%;
 }
 
 .card9pos {
   margin-left: 52.5%;
   margin-top: 65%;
 }
+
 .name9pos {
   position: absolute;
   bottom: 2.9vw;
-  left: 2%;
+  left: -10%;
 }
+
 .position9pos {
   position: absolute;
   bottom: 0;
-  left: 1%;
+  left: -4%;
 }
+
 .card10pos {
   margin-left: 77%;
   margin-top: 65%;
@@ -318,16 +342,16 @@
 .name10pos {
   position: absolute;
   bottom: 2.9vw;
-  left: -10.5%;
+  left: -9.5%;
 }
 
 .position10pos {
   position: absolute;
   bottom: 0;
-  left: -3%;
+  left: 13%;
 }
 
-.card11pos{
+.card11pos {
   margin-left: 70%;
   margin-top: 15%;
 }
@@ -335,7 +359,8 @@
 .name11pos {
   position: absolute;
   bottom: 2.9vw;
-  left: -5%;
+  left: -11%;
+  font-size: 17px;
 }
 
 .position11pos {
@@ -344,169 +369,244 @@
   left: 8%;
 }
 
+.card12pos {
+  margin-left: 40%;
+  margin-top: 90%;
+}
+
+.name12pos {
+  position: absolute;
+  bottom: 2.9vw;
+  left: -8%;
+}
+
+.position12pos {
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+}
 
 @media screen and (max-width: 1024px) and (min-width: 200px) {
   .firstyear {
     font-size: 30vw;
     margin-top: 8.1%;
   }
+
   .secrect {
     width: 90%;
-    height: 730vw;
+    height: 870vw;
     margin-top: 19%;
     margin-left: 4.7%;
   }
+
   .secyear {
     font-size: 14.5vw;
     margin-top: 20%;
   }
+
   .card {
     width: 65vw;
     height: 60vw;
   }
+
   #image {
     width: 70vw;
-    height:60vw;
+    height: 60vw;
+    object-fit: cover;
   }
+
   .name {
     font-size: 3.8vw;
   }
-  .icon{
+
+  .icon {
     top: 30vw;
   }
+
   .icon a {
     top: 5vw;
     height: 50vw;
   }
+
   .socialicon img,
   .socialicon2 img {
     width: 10vw;
   }
+
   .position {
     letter-spacing: 0.8vw;
-    left :7vw;
+    left: 7vw;
     font-size: 3.3vw;
   }
+
   .card1pos {
     margin-top: 35%;
     margin-left: 17.5%;
   }
+
   .card2pos {
     margin-left: 17.5%;
     margin-top: 100%;
   }
-  .card11pos{
+
+  .card11pos {
     margin-left: 17.5%;
     margin-top: 165%;
   }
+
   .card3pos {
     margin-left: 17.5%;
     margin-top: 230%;
   }
+
   .card4pos {
     margin-left: 17.5%;
     margin-top: 295%;
   }
+
   .card5pos {
     margin-left: 17.5%;
     margin-top: 360%;
   }
+
   .card6pos {
     margin-left: 17.5%;
     margin-top: 425%;
   }
+
   .card7pos {
     margin-left: 17.5%;
     margin-top: 490%;
   }
+
   .card8pos {
     margin-left: 17.5%;
     margin-top: 555%;
   }
+
   .card9pos {
     margin-left: 17.5%;
     margin-top: 620%;
   }
+
   .card10pos {
     margin-left: 17.5%;
     margin-top: 685%;
   }
+
+  .card12pos {
+    margin-left: 17.5%;
+    margin-top: 750%;
+  }
+
   .name1pos {
     bottom: 5.5vw;
     left: 6vw;
   }
+
   .name2pos {
     bottom: 5.5vw;
-    left:2vw;
+    left: 2vw;
   }
+
   .name3pos {
     bottom: 5.5vw;
-    left:10vw;
+    left: 7vw;
 
   }
+
   .name4pos {
     bottom: 5.5vw;
-    left:2vw;
+    left: 10vw;
 
   }
+
   .name5pos {
     bottom: 5.5vw;
-    left:4vw;
+    left: 4vw;
 
   }
+
   .name6pos {
     bottom: 5.5vw;
-    left:4vw;
+    left: -3vw;
 
   }
+
   .name7pos {
     bottom: 5.5vw;
-    left:6vw;
+    left: 6vw;
 
   }
+
   .name8pos {
     bottom: 5.5vw;
-    left:3vw;
+    left: 10vw;
 
   }
+
   .name9pos {
     bottom: 5.5vw;
-    left:7vw;
+    left: 1vw;
 
   }
+
   .name10pos {
     bottom: 5.5vw;
-    left:0vw;
+    left: 02vw;
   }
-  .name11pos{
+
+  .name11pos {
     bottom: 5.5vw;
-    left: 3vw;
+    left: -5vw;
   }
+
+  .name12pos {
+    bottom: 5.5vw;
+    left: 2vw;
+  }
+
   .position1pos {
     left: 10vw;
   }
+
   .position2pos {
     left: 3vw;
   }
+
   .position3pos {
-    left: 0vw;
+    left: 5vw;
   }
+
   .position4pos {
     left: 8vw;
   }
+
   .position6pos {
     left: 1vw;
   }
+
   .position7pos {
     left: 5vw;
   }
+
   .position8pos {
-    left: 2vw;
+    left: 8vw;
   }
-  .position10pos{
-    left:5vw;
+
+  .position9pos {
+    left: 3.5vw;
   }
+
+  .position10pos {
+    left: 12vw;
+  }
+
   .position11pos {
+    left: 10vw;
+  }
+
+  .position12pos {
     left: 10vw;
   }
 
