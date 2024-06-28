@@ -547,8 +547,11 @@ section {
 }
 
 @media screen and (max-width:1024px) and (min-width:200px) {
-    .header-content h1 {
-        position: fixed;
+
+
+    .header-content {
+        background-position: left 50% top 9vh;
+
     }
 
     .container ul {
