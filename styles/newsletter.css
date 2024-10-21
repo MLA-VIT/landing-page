@@ -11,6 +11,7 @@ a {
 }
 
 body {
+    display:none;
     background-size: cover;
     background-position: center top 15vh;
     background-repeat: no-repeat;
